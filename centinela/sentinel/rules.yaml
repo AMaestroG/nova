@@ -1,0 +1,381 @@
+# =============================================================================
+# REGLAS DE SEGURIDAD — SENTINEL N1
+# Nova Homonexus — Sistema Centinela
+# =============================================================================
+# Este archivo define todas las reglas, umbrales y configuraciones de
+# seguridad del sistema. Es la fuente de verdad única para SENTINEL.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# AUTENTICACIÓN
+# ---------------------------------------------------------------------------
+auth:
+  # Rotación de API keys cada 24 horas
+  api_key_rotation_hours: 24
+  # JWT: expiración del token de monitoreo (minutos)
+  jwt_expiration_minutes: 60
+  # JWT: expiración del refresh token (días)
+  jwt_refresh_expiration_days: 7
+  # Algoritmo JWT
+  jwt_algorithm: "HS256"
+  # Fingerprinting: ventana de verificación (segundos)
+  fingerprint_timeout: 30
+  # Rate limiting: peticiones por minuto por dispositivo
+  rate_limit_per_minute: 600
+  # Rate limiting: peticiones por minuto por endpoint crítico
+  rate_limit_critical_per_minute: 60
+  # Rate limiting: ventana en segundos
+  rate_limit_window: 60
+  # Bloqueo: intentos fallidos antes de bloquear
+  max_failed_attempts: 5
+  # Bloqueo: ventana de intentos fallidos (segundos)
+  failed_attempts_window: 60
+  # Bloqueo: duración del bloqueo (segundos)
+  lockout_duration: 300
+  # Dispositivos autorizados (device_id)
+  authorized_devices:
+    - "samsung_zfold_01"
+    - "samsung_watch8_01"
+  # Fingerprint del Z Fold (hardware ID esperado)
+  expected_fingerprint_prefix: "ZFOLD-NHX-"
+
+# ---------------------------------------------------------------------------
+# RANGOS VÁLIDOS DE SENSORES — Z FOLD
+# ---------------------------------------------------------------------------
+sensor_ranges:
+  # Acelerómetro (±2g, ±4g, ±8g, ±16g según escala)
+  acelerometro:
+    min_x: -16.0
+    max_x: 16.0
+    min_y: -16.0
+    max_y: 16.0
+    min_z: -16.0
+    max_z: 16.0
+    unidad: "g"
+  # Giroscopio (±250, ±500, ±1000, ±2000 dps)
+  giroscopio:
+    min_x: -2000.0
+    max_x: 2000.0
+    min_y: -2000.0
+    max_y: 2000.0
+    min_z: -2000.0
+    max_z: 2000.0
+    unidad: "dps"
+  # Magnetómetro
+  magnetometro:
+    min_x: -4900.0
+    max_x: 4900.0
+    min_y: -4900.0
+    max_y: 4900.0
+    min_z: -4900.0
+    max_z: 4900.0
+    unidad: "uT"
+  # Barómetro
+  barometro:
+    min_val: 300.0
+    max_val: 1100.0
+    unidad: "hPa"
+  # Luz ambiental
+  luz_ambiental:
+    min_val: 0
+    max_val: 65535
+    unidad: "lux"
+  # Proximidad
+  proximidad:
+    min_val: 0.0
+    max_val: 5.0
+    unidad: "cm"
+  # GPS
+  gps:
+    lat_min: -90.0
+    lat_max: 90.0
+    lon_min: -180.0
+    lon_max: 180.0
+    alt_min: -500.0
+    alt_max: 9000.0
+    precision_h_max: 100.0
+    velocidad_max: 500.0  # km/h (avión comercial)
+  # Temperatura ambiente
+  temperatura:
+    min_val: -40.0
+    max_val: 85.0
+    unidad: "C"
+  # Humedad
+  humedad:
+    min_val: 0.0
+    max_val: 100.0
+    unidad: "%"
+
+  # -----------------------------------------------------------------------
+  # RANGOS VÁLIDOS — GALAXY WATCH 8 CLASSIC
+  # -----------------------------------------------------------------------
+  health:
+    heart_rate_min: 30
+    heart_rate_max: 220
+    blood_pressure_sys_min: 70
+    blood_pressure_sys_max: 250
+    blood_pressure_dia_min: 40
+    blood_pressure_dia_max: 150
+    spo2_min: 70.0
+    spo2_max: 100.0
+    temperature_skin_min: 35.0
+    temperature_skin_max: 42.0
+    temperature_core_min: 36.0
+    temperature_core_max: 41.0
+    stress_min: 0
+    stress_max: 100
+    hrv_min: 10.0
+    hrv_max: 200.0
+    battery_min: 0
+    battery_max: 100
+    steps_max: 200000
+    # Bioimpedancia BIA
+    bia_body_fat_min: 2.0
+    bia_body_fat_max: 60.0
+    bia_muscle_mass_min: 10.0
+    bia_muscle_mass_max: 80.0
+    bia_bone_mass_min: 1.0
+    bia_bone_mass_max: 20.0
+    bia_body_water_min: 20.0
+    bia_body_water_max: 80.0
+    bia_bmr_min: 500
+    bia_bmr_max: 5000
+
+# ---------------------------------------------------------------------------
+# GEOVALLAS — ZONAS SEGURAS
+# ---------------------------------------------------------------------------
+geo_fence:
+  enabled: true
+  # Radio por defecto de las zonas (metros)
+  default_radius: 200
+  # Intervalo de verificación (segundos)
+  check_interval: 30
+  # Velocidad máxima peatonal (km/h)
+  max_walking_speed: 8.0
+  # Velocidad máxima vehicular (km/h)
+  max_driving_speed: 180.0
+  # Tiempo mínimo en zona para considerar "llegada" (segundos)
+  min_stay_time: 120
+  # Alertar al salir de zona segura
+  alert_on_exit: true
+  # Alertar al entrar a zona segura
+  alert_on_entry: true
+  # Zonas seguras predefinidas
+  safe_zones:
+    casa:
+      name: "Casa"
+      lat: 19.4326
+      lon: -99.1332
+      radius: 150
+      type: "home"
+    oficina:
+      name: "Oficina"
+      lat: 19.4278
+      lon: -99.1675
+      radius: 200
+      type: "work"
+    gimnasio:
+      name: "Gimnasio"
+      lat: 19.4300
+      lon: -99.1400
+      radius: 100
+      type: "gym"
+
+# ---------------------------------------------------------------------------
+# DETECCIÓN DE ANOMALÍAS
+# ---------------------------------------------------------------------------
+anomaly_detection:
+  enabled: true
+  # Heart Rate: cambio súbito (bpm en 10 segundos)
+  hr_sudden_change: 30
+  # Heart Rate: bradicardia (bpm)
+  bradycardia_threshold: 40
+  # Heart Rate: taquicardia (bpm)
+  tachycardia_threshold: 180
+  # Presión arterial: cambio súbito sistólico (mmHg en 30 seg)
+  bp_sudden_change_sys: 20
+  # Presión arterial: cambio súbito diastólico (mmHg en 30 seg)
+  bp_sudden_change_dia: 15
+  # SpO2: caída mínima para alertar (%)
+  spo2_drop_threshold: 5
+  # SpO2: umbral crítico (%)
+  spo2_critical: 88.0
+  # Estrés: pico súbito (puntos en 30 seg)
+  stress_sudden_spike: 25
+  # Temperatura: cambio súbito (°C en 60 seg)
+  temp_sudden_change: 1.5
+  # Caída: umbral de aceleración combinada (g)
+  fall_acceleration_threshold: 6.0
+  # Caída: ventana de detección post-impacto (segundos)
+  fall_post_impact_window: 5
+  # Inactividad: tiempo sin movimiento (minutos)
+  inactivity_threshold_minutes: 120
+  # Inactividad: tiempo crítico sin movimiento (minutos)
+  inactivity_critical_minutes: 360
+  # Sueño: anomalía en fase REM (% desviación)
+  sleep_rem_anomaly_pct: 40
+  # Sueño: duración mínima saludable (horas)
+  # 4h es el mínimo absoluto de supervivencia; 6h es el mínimo recomendado
+  sleep_min_hours: 6
+  # Sueño: duración máxima (horas)
+  sleep_max_hours: 14
+  # Arritmia: detección por HRV (SDNN < umbral)
+  arrhythmia_hrv_sdnn_threshold: 20.0
+  # Ventana de análisis de anomalías (segundos)
+  analysis_window: 300
+
+# ---------------------------------------------------------------------------
+# PRIVACIDAD
+# ---------------------------------------------------------------------------
+privacy:
+  # Algoritmo de encriptación
+  encryption_algorithm: "AES-256-GCM"
+  # Clave maestra (debe ser 32 bytes para AES-256)
+  # En producción, usar variable de entorno
+  master_key_env: "SENTINEL_ENCRYPTION_KEY"
+  # Política de retención (días por tipo de dato)
+  retention_days:
+    sensor_raw: 7
+    ubicacion: 30
+    health: 90
+    emocion: 90
+    alerta: 365
+    evento: 365
+    audit_log: 365
+  # Modo privado: no almacenar ubicación exacta
+  private_mode_location_radius: 500  # metros de aproximación
+  # Campos sensibles que requieren encriptación
+  sensitive_fields:
+    - "ubicacion.lat"
+    - "ubicacion.lon"
+    - "health.ecg_data"
+    - "health.bioimpedance"
+    - "emocion.facial_expression"
+  # Intervalo de purga de datos expirados (horas)
+  purge_interval_hours: 6
+
+# ---------------------------------------------------------------------------
+# WATCHDOG — PERRO GUARDIÁN
+# ---------------------------------------------------------------------------
+watchdog:
+  # Heartbeat: intervalo entre pings (segundos)
+  heartbeat_interval: 5
+  # Heartbeat: tiempo sin respuesta para considerar desconexión (segundos)
+  heartbeat_timeout: 15
+  # Reconexión: backoff exponencial inicial (segundos)
+  reconnect_base_delay: 1
+  # Reconexión: backoff máximo (segundos)
+  reconnect_max_delay: 60
+  # Reconexión: reintentos máximos antes de alerta crítica
+  reconnect_max_retries: 10
+  # Watchdog interno: intervalo de auto-verificación (segundos)
+  self_check_interval: 30
+  # Watchdog interno: umbral de memoria (MB) para alerta
+  memory_warning_mb: 500
+  # Watchdog interno: umbral de CPU (%) para alerta
+  cpu_warning_pct: 80
+  # Watchdog interno: umbral de disco (%) para alerta
+  disk_warning_pct: 85
+  # Watchdog interno: temperatura CPU máxima (°C)
+  cpu_temp_max: 85.0
+  # Batería Z Fold: niveles
+  battery_critical_pct: 5
+  battery_warning_pct: 15
+  # Señal: RSSI mínimo para considerar buena conexión (dBm)
+  signal_min_good: -80
+  # Señal: RSSI crítico (dBm)
+  signal_critical: -100
+
+# ---------------------------------------------------------------------------
+# ESCALACIÓN DE ALERTAS
+# ---------------------------------------------------------------------------
+alert_escalation:
+  # Niveles de severidad (orden ascendente)
+  levels:
+    - "INFO"
+    - "WARNING"
+    - "ERROR"
+    - "CRITICAL"
+  # Tiempo de escalación: si no se resuelve en X minutos, subir nivel
+  escalation_minutes:
+    WARNING: 15
+    ERROR: 10
+    CRITICAL: 5
+  # Canales de notificación por nivel
+  notification_channels:
+    INFO:
+      - "dashboard"
+    WARNING:
+      - "dashboard"
+      - "telegram"
+    ERROR:
+      - "dashboard"
+      - "telegram"
+      - "webhook"
+    CRITICAL:
+      - "dashboard"
+      - "telegram"
+      - "webhook"
+      - "telegram_enjambre"
+  # Telegram: IDs de los bots del enjambre
+  telegram_bots:
+    - "nexus_centinela_bot"
+    - "nexus_mayordomo_bot"
+    - "nexus_vigia_bot"
+  # Webhook URL para integración externa
+  webhook_url: ""
+  # Tiempo máximo de respuesta para CRITICAL (minutos)
+  critical_response_timeout: 5
+  # Reintentos de notificación
+  notification_retries: 3
+  # Intervalo entre reintentos (segundos)
+  notification_retry_delay: 10
+
+# ---------------------------------------------------------------------------
+# AUDITORÍA
+# ---------------------------------------------------------------------------
+audit:
+  # Hash encadenado: algoritmo
+  hash_algorithm: "sha256"
+  # Hash encadenado: prefijo del bloque genesis
+  genesis_hash: "0000000000000000000000000000000000000000000000000000000000000000"
+  # Almacenar en base de datos
+  db_storage: true
+  # Almacenar en archivo JSON de respaldo
+  file_backup: true
+  # Ruta del archivo de respaldo
+  backup_path: "/home/opc/nova/logs/centinela_audit.json"
+  # Tamaño máximo del archivo de respaldo antes de rotar (MB)
+  backup_max_mb: 100
+  # Niveles de auditoría
+  levels:
+    - "SECURITY"
+    - "ACCESS"
+    - "DATA"
+    - "SYSTEM"
+    - "ALERT"
+
+# ---------------------------------------------------------------------------
+# DETECCIÓN DE AMENAZAS
+# ---------------------------------------------------------------------------
+threat_detection:
+  # Blacklist: tiempo de expulsión (minutos)
+  blacklist_duration: 60
+  # Blacklist: máximo de IPs en blacklist
+  blacklist_max_ips: 1000
+  # Data poisoning: desviación máxima permitida del promedio histórico
+  data_poisoning_std_dev: 5.0
+  # Data poisoning: ventana de análisis (segundos)
+  data_poisoning_window: 3600
+  # Suplantación: ventana de verificación de fingerprint (segundos)
+  spoofing_check_window: 60
+  # Suplantación: máximo de dispositivos distintos por IP
+  max_devices_per_ip: 3
+  # Payload malicioso: tamaño máximo (bytes)
+  max_payload_bytes: 10485760  # 10 MB
+  # Payload malicioso: profundidad máxima de anidamiento JSON
+  max_json_depth: 10
+  # Frecuencia: peticiones por segundo para considerar ataque
+  rate_attack_threshold: 100
+  # Frecuencia: ventana de detección de ataque (segundos)
+  rate_attack_window: 10

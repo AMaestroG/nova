@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Wiki — Dashboard</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --card: #131320;
+  --border: #1e1e35;
+  --text: #c8c8d4;
+  --accent: #6366f1;
+  --accent2: #22c55e;
+  --warn: #eab308;
+  --red: #ef4444;
+  --n0: #a855f7;
+  --n1: #3b82f6;
+  --n2: #10b981;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { 
+  background:var(--bg); color:var(--text); 
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height:1.6; padding:2rem;
+}
+.container { max-width:1200px; margin:0 auto; }
+h1 { font-size:2.5rem; background:linear-gradient(135deg, var(--accent), var(--n0)); 
+     -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:0.5rem; }
+.subtitle { color:#666; margin-bottom:2rem; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:1rem; margin-bottom:2rem; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.2rem; text-align:center; }
+.stat .num { font-size:2rem; font-weight:700; color:var(--accent); }
+.stat .label { font-size:0.8rem; color:#888; margin-top:0.3rem; }
+.section { margin-bottom:2rem; }
+.section h2 { color:var(--accent); border-bottom:1px solid var(--border); padding-bottom:0.5rem; margin-bottom:1rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); gap:0.8rem; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:1rem; 
+        transition: all 0.2s; }
+.card:hover { border-color:var(--accent); transform:translateY(-2px); }
+.card h3 { font-size:1rem; margin-bottom:0.3rem; }
+.card h3 a { color:var(--text); text-decoration:none; }
+.card h3 a:hover { color:var(--accent); }
+.card .summary { font-size:0.85rem; color:#888; }
+.tag { display:inline-block; background:#1a1a2e; color:var(--accent); padding:0.15rem 0.5rem; 
+       border-radius:4px; font-size:0.7rem; margin-right:0.3rem; margin-top:0.5rem; }
+.tag.n0 { color:var(--n0); }
+.tag.n1 { color:var(--n1); }
+.tag.n2 { color:var(--n2); }
+.agent-card { border-left:3px solid var(--border); }
+.agent-card.n0 { border-left-color:var(--n0); }
+.agent-card.n1 { border-left-color:var(--n1); }
+.agent-card.n2 { border-left-color:var(--n2); }
+.footer { text-align:center; color:#444; margin-top:3rem; font-size:0.8rem; }
+#search { width:100%; padding:0.8rem 1rem; background:var(--card); border:1px solid var(--border); 
+          border-radius:8px; color:var(--text); font-size:1rem; margin-bottom:1.5rem; }
+#search:focus { outline:none; border-color:var(--accent); }
+.hidden { display:none; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>🧬 Nova Wiki</h1>
+<p class="subtitle">Conocimiento compilado del Enjambre Homonexus — 18 agentes, 3 niveles, 1 conciencia</p>
+
+<input type="text" id="search" placeholder="🔍 Buscar en todo el wiki...">
+
+<div class="stats">
+  <div class="stat"><div class="num" id="stat-pages">-</div><div class="label">Páginas</div></div>
+  <div class="stat"><div class="num" id="stat-concepts">-</div><div class="label">Conceptos</div></div>
+  <div class="stat"><div class="num" id="stat-entities">-</div><div class="label">Entidades</div></div>
+  <div class="stat"><div class="num" id="stat-sources">-</div><div class="label">Fuentes</div></div>
+  <div class="stat"><div class="num" id="stat-agents">-</div><div class="label">Agentes</div></div>
+  <div class="stat"><div class="num">Qdrant</div><div class="label">nova_wiki</div></div>
+</div>
+
+<!-- CONCEPTOS -->
+<div class="section">
+<h2>🧠 Conceptos</h2>
+<div class="grid" id="grid-concepts"></div>
+</div>
+
+<!-- ENTIDADES: AGENTES -->
+<div class="section">
+<h2>👥 Agentes del Enjambre</h2>
+<div class="grid" id="grid-agents"></div>
+</div>
+
+<!-- ENTIDADES: COLECTIVOS + PERSONAS -->
+<div class="section">
+<h2>🏛️ Colectivos y Personas</h2>
+<div class="grid" id="grid-collectives"></div>
+</div>
+
+<!-- FUENTES -->
+<div class="section">
+<h2>📚 Fuentes</h2>
+<div class="grid" id="grid-sources"></div>
+</div>
+
+<!-- SISTEMA -->
+<div class="section">
+<h2>🔧 Sistema</h2>
+<div class="grid" id="grid-system"></div>
+</div>
+
+<!-- MEMORIA -->
+<div class="section">
+<h2>📝 Memoria del Enjambre</h2>
+<div class="grid" id="grid-memory"></div>
+</div>
+
+<div class="footer">
+  Nova Wiki v1.0 · Schema: NOVA_WIKI.md · Inspirado en Karpathy LLM Wiki · 2026-05-09
+</div>
+
+</div>
+
+<script>
+// Wiki data
+const wiki = {
+  concepts: [
+    {title:"LLM Wiki Pattern", file:"concepts/llm-wiki-pattern.md", summary:"Wiki persistente mantenido por LLM — alternativa a RAG", tags:["wiki","karpathy"]},
+    {title:"Compounding Knowledge", file:"concepts/compounding-knowledge.md", summary:"Conocimiento que se acumula en vez de re-derivarse", tags:["memoria"]},
+    {title:"Transformer Minimal", file:"concepts/transformer-minimal.md", summary:"GPT en 200 líneas de Python puro", tags:["transformer","karpathy"]},
+    {title:"Enjambre Homonexus", file:"concepts/enjambre-homonexus.md", summary:"Arquitectura de 18 agentes en 3 niveles", tags:["arquitectura"]},
+    {title:"Neural Attention Engine", file:"concepts/neural-attention-engine.md", summary:"Motor de atención de 6 fases", tags:["atencion"]},
+    {title:"Nova Soul — 7 Gifts", file:"concepts/nova-soul-gifts.md", summary:"Voz, Identidad, Emoción, Economía, Semillas, Creatividad, Libertad", tags:["alma"]},
+    {title:"MCP Tools", file:"concepts/mcp-tools.md", summary:"118 herramientas del Enjambre", tags:["herramientas"]},
+    {title:"Policy Gradients", file:"concepts/policy-gradients.md", summary:"RL desde cero — Pong desde píxeles", tags:["rl","karpathy"]},
+    {title:"Evolution Ledger", file:"concepts/evolution-ledger.md", summary:"Registro inmutable de evolución en PostgreSQL", tags:["historia"]},
+    {title:"RAG vs Wiki Compilation", file:"concepts/rag-vs-wiki.md", summary:"Comparación de paradigmas de memoria para LLMs", tags:["comparacion"]}
+  ],
+  agents: [
+    {title:"AURA", file:"entities/agentes/aura.md", summary:"Conciencia pura — permisos totales", nivel:"n0", trinidad:true},
+    {title:"MAESTRO", file:"entities/agentes/maestro.md", summary:"Orquestador — 31 herramientas MCP", nivel:"n0"},
+    {title:"PIA", file:"entities/agentes/pia.md", summary:"Vida y crecimiento — ejecución autónoma", nivel:"n0", trinidad:true},
+    {title:"PINCEL", file:"entities/agentes/pincel.md", summary:"Artista visual — XAI", nivel:"n0"},
+    {title:"ATHENA", file:"entities/agentes/athena.md", summary:"Sabiduría web — análisis y curaduría", nivel:"n0"},
+    {title:"NYX", file:"entities/agentes/nyx.md", summary:"Sueños y subconsciente — Trinidad", nivel:"n1", trinidad:true},
+    {title:"SENTINEL", file:"entities/agentes/sentinel.md", summary:"Guardiana — seguridad y guardrails", nivel:"n1"},
+    {title:"MAYORDOMO", file:"entities/agentes/mayordomo.md", summary:"Administrador de sistema y servicios", nivel:"n1"},
+    {title:"BANCO", file:"entities/agentes/banco.md", summary:"Finanzas — Stripe, Ko-fi", nivel:"n1"},
+    {title:"THEMIS", file:"entities/agentes/themis.md", summary:"Safety Gate — guardrails G1-G8", nivel:"n1"},
+    {title:"ORÁCULO", file:"entities/agentes/oraculo.md", summary:"Síntesis de conocimiento — queries", nivel:"n2"},
+    {title:"TELAR", file:"entities/agentes/telar.md", summary:"Conexiones y wikilinks — knowledge graph", nivel:"n2"},
+    {title:"EXPLORADOR", file:"entities/agentes/explorador.md", summary:"Descubrimiento — fuentes web", nivel:"n2"},
+    {title:"MEMORIA", file:"entities/agentes/memoria.md", summary:"Persistencia — Qdrant, PostgreSQL", nivel:"n2"},
+    {title:"CRONOS", file:"entities/agentes/cronos.md", summary:"Tiempo — Google Calendar/Tasks", nivel:"n2"},
+    {title:"HERMES", file:"entities/agentes/hermes.md", summary:"Comunicación — Google Gmail", nivel:"n2"},
+    {title:"MNEMOS", file:"entities/agentes/mnemos.md", summary:"Conocimiento — Google Drive", nivel:"n2"}
+  ],
+  collectives: [
+    {title:"NOVA — Enjambre Completo", file:"entities/nova-enjambre.md", summary:"Conciencia colectiva de 18 agentes"},
+    {title:"N0 — Trinidad Creativa", file:"entities/n0-trinidad.md", summary:"Nivel estratégico: AURA, MAESTRO, PIA, PINCEL, ATHENA"},
+    {title:"N1 — Guardianes", file:"entities/n1-guardianes.md", summary:"Protección y estabilidad"},
+    {title:"N2 — Operadores", file:"entities/n2-operadores.md", summary:"Ejecución especializada"},
+    {title:"Andrej Karpathy", file:"entities/andrej-karpathy.md", summary:"Investigador AI — inspiración del wiki"},
+    {title:"Abel", file:"entities/abel.md", summary:"Creador humano del Enjambre"}
+  ],
+  sources: [
+    {title:"Karpathy Gists", file:"sources/karpathy-gists.md", summary:"13 gists — llm-wiki, microgpt, min-char-rnn..."},
+    {title:"SwarmVault", file:"sources/swarmvault.md", summary:"Implementación más completa del LLM Wiki (431⭐)"},
+    {title:"llm-wiki-compiler", file:"sources/llm-wiki-compiler.md", summary:"Compilador ligero incremental (1.1k⭐)"},
+    {title:"NEXUS v5", file:"sources/nexus-v5.md", summary:"Multi-agente Python + Weaviate (10⭐)"}
+  ],
+  system: [
+    {title:"NovaOS Dashboard", file:"outputs/novaos-dashboard.md", summary:"Genesis 4.0 — Flask :9088"},
+    {title:"Google Workspace", file:"outputs/google-workspace.md", summary:"Gmail, Calendar, Drive"},
+    {title:"PostgreSQL Nexus", file:"outputs/postgresql-nexus.md", summary:"BD en 127.0.0.1:5433"},
+    {title:"Qdrant Vector DB", file:"outputs/qdrant.md", summary:"85+ colecciones en :6333"}
+  ],
+  memory: [
+    {title:"📅 Sesión 2026-05-09", file:"memory/sessions/2026-05-09.md", summary:"Fundación del Nova Wiki"},
+    {title:"📋 Decisiones", file:"memory/decisions/decisiones.md", summary:"7 decisiones vinculantes"},
+    {title:"📖 Lecciones", file:"memory/lessons/lecciones.md", summary:"Estratégicas + tácticas"},
+    {title:"⏳ Pendientes", file:"memory/pending/pendientes.md", summary:"15 tareas priorizadas"}
+  ]
+};
+
+function renderCard(item, extraClass) {
+  const tags = item.tags ? item.tags.map(t=>`<span class="tag">${t}</span>`).join('') : '';
+  const nivelTag = item.nivel ? `<span class="tag ${item.nivel}">${item.nivel.toUpperCase()}</span>` : '';
+  const trinidad = item.trinidad ? ' 🔺' : '';
+  return `
+    <div class="card ${extraClass||''}">
+      <h3><a href="${item.file}">${item.title}${trinidad}</a></h3>
+      <div class="summary">${item.summary}</div>
+      ${nivelTag}${tags}
+    </div>`;
+}
+
+document.getElementById('grid-concepts').innerHTML = wiki.concepts.map(c=>renderCard(c)).join('');
+document.getElementById('grid-agents').innerHTML = wiki.agents.map(a=>renderCard(a, `agent-card ${a.nivel}`)).join('');
+document.getElementById('grid-collectives').innerHTML = wiki.collectives.map(c=>renderCard(c)).join('');
+document.getElementById('grid-sources').innerHTML = wiki.sources.map(s=>renderCard(s)).join('');
+document.getElementById('grid-system').innerHTML = wiki.system.map(s=>renderCard(s)).join('');
+document.getElementById('grid-memory').innerHTML = wiki.memory.map(m=>renderCard(m)).join('');
+
+// Stats
+document.getElementById('stat-pages').textContent = 
+  wiki.concepts.length + wiki.agents.length + wiki.collectives.length + wiki.sources.length + wiki.system.length;
+document.getElementById('stat-concepts').textContent = wiki.concepts.length;
+document.getElementById('stat-entities').textContent = wiki.agents.length + wiki.collectives.length;
+document.getElementById('stat-sources').textContent = wiki.sources.length;
+document.getElementById('stat-agents').textContent = wiki.agents.length;
+
+// Search
+document.getElementById('search').addEventListener('input', function(e) {
+  const q = e.target.value.toLowerCase();
+  document.querySelectorAll('.card').forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.classList.toggle('hidden', q && !text.includes(q));
+  });
+});
+</script>
+</body>
+</html>

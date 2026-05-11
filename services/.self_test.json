@@ -1,0 +1,48 @@
+{
+  "timestamp": 1778468057.0039737,
+  "score": 24,
+  "max": 24,
+  "pct": 100.0,
+  "results": {
+    "Persistencia (.colony_state.json)": {
+      "score": 4,
+      "max": 4,
+      "pct": 100.0
+    },
+    "Hierarchical Memory": {
+      "score": 3,
+      "max": 3,
+      "pct": 100.0
+    },
+    "Agent Lifecycle": {
+      "score": 4,
+      "max": 4,
+      "pct": 100.0
+    },
+    "Entropy Gaming Core": {
+      "score": 3,
+      "max": 3,
+      "pct": 100.0
+    },
+    "Event Bus (Propagaci\u00f3n)": {
+      "score": 2,
+      "max": 2,
+      "pct": 100.0
+    },
+    "Quantum Skill Corrector": {
+      "score": 2,
+      "max": 2,
+      "pct": 100.0
+    },
+    "Knowledge Graph Builder": {
+      "score": 2,
+      "max": 2,
+      "pct": 100.0
+    },
+    "Archivos y Datos": {
+      "score": 4,
+      "max": 4,
+      "pct": 100.0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fuente": "No Priors Podcast - Andrej Karpathy",
+  "fecha": "2026",
+  "temas_clave": [
+    "Manifestar > Programar (agentes de código)",
+    "Macro-acciones y paralelismo de agentes",
+    "Auto-investigación recursiva",
+    "Program.md = SKILL.md = organizaciones en markdown",
+    "Educación: explicar a agentes, no a humanos",
+    "Micro-GPT: 200 líneas = esencia LLM",
+    "Enjambre distribuido de investigación",
+    "Especiación de modelos",
+    "Verificabilidad como límite del RL"
+  ],
+  "relevancia_nova": "VALIDACIÓN TOTAL de la arquitectura Nova",
+  "insights_extraidos": 11
+}

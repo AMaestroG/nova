@@ -1,0 +1,21 @@
+[Unit]
+Description=Nova Centinela — Sistema de vigilancia y salud
+After=network.target postgresql-13.service
+Wants=postgresql-13.service
+
+[Service]
+Type=simple
+User=opc
+Group=opc
+WorkingDirectory=/home/opc/nova
+Environment=PYTHONPATH=/home/opc/nova
+Environment=Z_TELEGRAM_TOKEN=8741644877:AAG8X7_OE0Tg3kveCQESPkB7UbVzgeNFq80
+Environment=Z_TELEGRAM_CHAT_ID=8519133640
+ExecStart=/usr/bin/python3 -B /home/opc/nova/centinela/server.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/opc/nova/logs/centinela.log
+StandardError=append:/home/opc/nova/logs/centinela_error.log
+
+[Install]
+WantedBy=multi-user.target

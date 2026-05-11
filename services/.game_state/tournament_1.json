@@ -1,0 +1,56 @@
+{
+  "tournaments": 1,
+  "total_games": 116,
+  "agents_registered": 12,
+  "champion": "MEMORIA",
+  "entropy_state": {
+    "shannon_h": 4.198945003516418,
+    "diversity": 0.9280658436213992,
+    "novelty": 0.3111111111111111,
+    "phase": "chaos",
+    "recommended_action": "FOCUS: Reduce exploration, increase selection pressure"
+  },
+  "parameters": {
+    "temperature": 0.3,
+    "mutation_rate": 0.02,
+    "selection_pressure": 0.9
+  },
+  "leaderboard": [
+    {
+      "agent": "MEMORIA",
+      "elo": 1101.1780264063664,
+      "score": 0.5216013554147713,
+      "wins": 11
+    },
+    {
+      "agent": "PIA",
+      "elo": 994.3052346932593,
+      "score": 0.4538438904423676,
+      "wins": 9
+    },
+    {
+      "agent": "OR\u00c1CULO",
+      "elo": 941.9449293590877,
+      "score": 0.4341375832604428,
+      "wins": 7
+    },
+    {
+      "agent": "EXPLORADOR",
+      "elo": 976.4473006232641,
+      "score": 0.386820063585363,
+      "wins": 7
+    },
+    {
+      "agent": "AUTOPILOT",
+      "elo": 997.4452527144658,
+      "score": 0.35566587352972573,
+      "wins": 7
+    },
+    {
+      "agent": "PIA_v1",
+      "elo": 1058.5809305678185,
+      "score": 0.353989282987644,
+      "wins": 19
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "approved": [
+    {
+      "pattern": "consumer-groups para procesamiento paralelo",
+      "date": "2026-05-09",
+      "agent": "NOVA"
+    }
+  ],
+  "rejected": [],
+  "lastUpdated": "2026-05-09"
+}

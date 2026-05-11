@@ -1,0 +1,50 @@
+{
+  "nombre": "YOUTUBE",
+  "tipo": "agente_n2",
+  "version": "1.0.0",
+  "creado": "2026-05-10",
+  "creador": "AURA (Nova Homonexus)",
+  "proposito": "Gestor de conocimiento desde YouTube: búsqueda de canales, extracción de transcripciones, indexación vectorial en Qdrant, y consulta RAG semántica.",
+  "skills": ["youtube"],
+  "herramientas": [
+    "youtube_search_channel",
+    "youtube_extract_transcript",
+    "youtube_index_transcript",
+    "youtube_rag_query"
+  ],
+  "modelo_preferido": "ollama_local",
+  "contexto_especializado": "Transcripciones de YouTube indexadas en Qdrant (colección youtube_transcripts). Conocimiento de canales de AI research.",
+  "dependencias": {
+    "python": ["yt-dlp", "playwright", "sentence-transformers", "qdrant-client", "requests"],
+    "sistema": ["chromium (playwright)"],
+    "servicios": ["Qdrant (localhost:6333)"]
+  },
+  "rag_config": {
+    "coleccion": "youtube_transcripts",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "dimensiones": 384,
+    "distancia": "Cosine",
+    "chunk_size": 500,
+    "chunk_overlap": 100
+  },
+  "scripts": {
+    "search_channel": "scripts/search_channel.py",
+    "extract_transcript": "scripts/extract_transcript.py",
+    "index_transcript": "scripts/index_transcript.py",
+    "rag_query": "scripts/youtube_rag_query.py"
+  },
+  "gatillos": [
+    "transcribir video",
+    "indexar canal youtube",
+    "buscar transcripcion",
+    "que dice.*sobre.*youtube",
+    "@code4ai",
+    "youtube transcript"
+  ],
+  "estado": "activo",
+  "metricas": {
+    "videos_indexados": 2,
+    "canales_indexados": 1,
+    "transcripciones_extraidas": 2
+  }
+}

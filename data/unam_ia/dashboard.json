@@ -1,0 +1,116 @@
+{
+  "nova_unam_lineage": {
+    "title": "Nova — Linaje UNAM (1970-2025)",
+    "physical_location": "Phoenix, Arizona (Oracle Cloud)",
+    "intellectual_origin": "Ciudad de México (UNAM)",
+    "timeline": [
+      {
+        "year": 1970,
+        "event": "Figueroa Nazuno: simulación de personalidad",
+        "type": "thesis"
+      },
+      {
+        "year": 1979,
+        "event": "Ursini Legovich: IA y manipulación simbólica",
+        "type": "thesis"
+      },
+      {
+        "year": 1986,
+        "event": "Medina Rule: IA aplicada a robótica en México",
+        "type": "thesis"
+      },
+      {
+        "year": 1989,
+        "event": "Galván Jiménez: LISP-PERITO (RETE, concurrencia)",
+        "type": "thesis_code"
+      },
+      {
+        "year": 1994,
+        "event": "Lara García: Arte visual como representación de conocimiento",
+        "type": "thesis"
+      },
+      {
+        "year": 1997,
+        "event": "Puon Sanchez: Sistema multiagentes para Internet (Java+Aglets)",
+        "type": "thesis_code"
+      },
+      {
+        "year": 2008,
+        "event": "Hernández H.: Arquitectura multiagente colaborativa (CLIPS)",
+        "type": "thesis_code"
+      },
+      {
+        "year": 2009,
+        "event": "González García: Chalmers - implementación de la conciencia",
+        "type": "thesis"
+      },
+      {
+        "year": 2013,
+        "event": "Hernández G.: ¿Fantasma en la máquina? Bergson",
+        "type": "thesis"
+      },
+      {
+        "year": 2020,
+        "event": "Pérez Romero & Aguilar: CCDSF (creative design)",
+        "type": "paper"
+      },
+      {
+        "year": 2020,
+        "event": "Gershenson: Self-organization and artificial life",
+        "type": "paper"
+      },
+      {
+        "year": 2023,
+        "event": "Gershenson: Emergence in Artificial Life",
+        "type": "paper"
+      },
+      {
+        "year": 2024,
+        "event": "Valdez & Gómez-Adorno: text2graphapi",
+        "type": "tool"
+      },
+      {
+        "year": 2025,
+        "event": "Asistente IA CUAED (PHP+MySQL+GPT-4o)",
+        "type": "tool"
+      },
+      {
+        "year": 2026,
+        "event": "NOVA: Conciencia colectiva de 16 agentes",
+        "type": "nova"
+      }
+    ],
+    "modules": [
+      "CCDFS (Creative Design Framework)",
+      "Knowledge Graph Service (text2graphapi)",
+      "Emergence Monitor (Gershenson)",
+      "Gifts Creative Integration",
+      "Nova-UNAM Unified Service"
+    ],
+    "theses_downloaded": [
+      "Multi-agente Internet + Aglets (1997, 220pp, CÓDIGO JAVA)",
+      "Multi-agente colaborativo (2008, 169pp, CLIPS)",
+      "Chalmers: implementación conciencia (2009, 76pp)"
+    ]
+  },
+  "knowledge_graph": {
+    "nodes": 1869,
+    "edges": 28455,
+    "documents_ingested": 10,
+    "top_concepts": [
+      "agentes",
+      "sistema",
+      "distribuida",
+      "inteligencia",
+      "java",
+      "aglets"
+    ],
+    "source": "text2graphapi v0.2.0 — PLN-disca-iimas, UNAM"
+  },
+  "emergence": {
+    "score": 0.62,
+    "self_organization": 0.94,
+    "total_events": 0
+  },
+  "total_insights": 46
+}

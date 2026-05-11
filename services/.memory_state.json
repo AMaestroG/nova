@@ -1,0 +1,22 @@
+[
+  {
+    "mos_id": "mos_c8c61effb39de85f",
+    "summary": "Nova acaba de desplegar 4 soluciones: auto-deduplicaci\u00f3n, persistencia de memoria, RL con m\u00e9tricas reales, y sistema de transcripci\u00f3n manual prioritaria. .",
+    "source": "solutions",
+    "tags": [
+      "soluciones",
+      "mejora"
+    ],
+    "importance": 0.95
+  },
+  {
+    "mos_id": "mos_b2c70e4c1372e33b",
+    "summary": "La colonia ahora tiene: 15 servicios, 253 registros \u00fanicos (deduplicados), torneos activos, RL aprendiendo, Night Shift optimizado. .",
+    "source": "solutions",
+    "tags": [
+      "estado",
+      "colonia"
+    ],
+    "importance": 0.9
+  }
+]

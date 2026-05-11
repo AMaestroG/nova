@@ -1,0 +1,17 @@
+{
+  "proyecto": "Reme (Remember me, refine me)",
+  "tipo": "Sistema de memoria dual para agentes IA",
+  "arquitectura": {
+    "sistema_1": "RimLight - Memoria Legible en archivos Markdown",
+    "sistema_2": "Memoria Experta en base vectorial (3 tipos: personal, procedimental, herramientas)"
+  },
+  "caracteristicas": [
+    "Pre-reasoning hook: comprime y resume antes de cada respuesta",
+    "Búsqueda híbrida: keywords + semántica",
+    "Auto-gestión: la IA añade, actualiza, borra su propia memoria",
+    "Portable: archivos Markdown copiables",
+    "Open source: Python, Apache 2.0"
+  ],
+  "resultados": "+6.22% en benchmarks de tareas complejas (BFC-LV3)",
+  "relevancia_nova": "Valida arquitectura Hierarchical Memory + SKILL.md + Qdrant"
+}

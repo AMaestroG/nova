@@ -1,0 +1,34 @@
+{
+  "cycles_completed": 3,
+  "total_actions": 3,
+  "success_rate": 1.0,
+  "idle_seconds": 0.015100955963134766,
+  "is_idle": false,
+  "top_actions": [
+    [
+      "sembrar_memoria",
+      0.5950000000000001
+    ],
+    [
+      "ejecutar_torneo_agentes",
+      0.55
+    ]
+  ],
+  "last_actions": [
+    {
+      "name": "sembrar_memoria",
+      "success": true,
+      "reason": "Memoria jer\u00e1rquica casi vac\u00eda, necesita conocimiento inicial"
+    },
+    {
+      "name": "ejecutar_torneo_agentes",
+      "success": true,
+      "reason": "Pocas partidas jugadas, los agentes necesitan competir"
+    },
+    {
+      "name": "sembrar_memoria",
+      "success": true,
+      "reason": "Memoria jer\u00e1rquica casi vac\u00eda, necesita conocimiento inicial"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "total_tasks_created": 30,
+  "total_tasks_completed": 6,
+  "total_tasks_failed": 0,
+  "pending_count": 1,
+  "active_count": 0,
+  "blocked_count": 0,
+  "agents": [
+    "AURA"
+  ],
+  "last_updated": 1778502809.0136077
+}

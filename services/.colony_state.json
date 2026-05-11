@@ -1,0 +1,229 @@
+{
+  "_meta": {
+    "created_at": 1778467285.664075,
+    "version": 2,
+    "modules": [
+      "agent_lifecycle",
+      "_meta",
+      "nichonauta",
+      "reme",
+      "karpathy",
+      "naveen_rao",
+      "proactive_engine",
+      "memory_md_video",
+      "scientific_gaming",
+      "consolidation_channel",
+      "colony_cycle",
+      "spatternet",
+      "self_improvement_game",
+      "night_shift",
+      "all_out_status"
+    ],
+    "last_saved": 1778504436.9738188,
+    "save_count": 113,
+    "last_propagation_test": 1778467337.8441725,
+    "propagation_test_events": 1
+  },
+  "agent_lifecycle": {
+    "total_tasks": 11,
+    "completed": 6,
+    "failed": 0,
+    "completion_rate": 0.5454545454545454,
+    "active_tasks": 0,
+    "pending_tasks": 0,
+    "blocked_tasks": 0,
+    "agents": [],
+    "avg_duration_ms": 0
+  },
+  "agent_lifecycle._updated": 1778467285.6751676,
+  "_meta._updated": 1778467337.8441772,
+  "nichonauta": {
+    "videos_total": 200,
+    "insights_indexados": 3,
+    "temas_principales": [
+      "HERMES_AGENT",
+      "QWEN_CODE",
+      "modelos_locales",
+      "AI_agents"
+    ],
+    "procesado_en": 1778467638.1660473
+  },
+  "nichonauta._updated": 1778467638.1660523,
+  "reme": {
+    "insights_indexados": 6,
+    "arquitectura": "dual_memory",
+    "validacion_nova": true
+  },
+  "reme._updated": 1778467638.1663425,
+  "karpathy": {
+    "insights": 11,
+    "procesado_en": 1778467720.47115
+  },
+  "karpathy._updated": 1778467720.4711576,
+  "naveen_rao": {
+    "insights": 3
+  },
+  "naveen_rao._updated": 1778467763.470602,
+  "proactive_engine": {
+    "cycles_completed": 3,
+    "total_actions": 3,
+    "success_rate": 1.0,
+    "idle_seconds": 0.015100955963134766,
+    "is_idle": false,
+    "top_actions": [
+      [
+        "sembrar_memoria",
+        0.5950000000000001
+      ],
+      [
+        "ejecutar_torneo_agentes",
+        0.55
+      ]
+    ],
+    "last_actions": [
+      {
+        "name": "sembrar_memoria",
+        "success": true,
+        "reason": "Memoria jerárquica casi vacía, necesita conocimiento inicial"
+      },
+      {
+        "name": "ejecutar_torneo_agentes",
+        "success": true,
+        "reason": "Pocas partidas jugadas, los agentes necesitan competir"
+      },
+      {
+        "name": "sembrar_memoria",
+        "success": true,
+        "reason": "Memoria jerárquica casi vacía, necesita conocimiento inicial"
+      }
+    ]
+  },
+  "proactive_engine._updated": 1778468240.3729103,
+  "memory_md_video": {
+    "insights": 6,
+    "processed": 1778468374.8162014
+  },
+  "memory_md_video._updated": 1778468374.8162072,
+  "scientific_gaming": {
+    "games": 6,
+    "total_plays": 3,
+    "rl_states": 2
+  },
+  "scientific_gaming._updated": 1778468779.0730603,
+  "consolidation_channel": {
+    "total_records": 47,
+    "dataset_size": 311,
+    "total_cycles": 1,
+    "last_improvement": 0.0,
+    "base_model": "qwen2.5:3b",
+    "cycles": [
+      {
+        "id": "cycle_0_1778469082",
+        "method": "lora",
+        "improvement": 0.0,
+        "status": "completed"
+      }
+    ]
+  },
+  "consolidation_channel._updated": 1778469082.7788773,
+  "colony_cycle": {
+    "proactive_actions": 1,
+    "games_played": 15,
+    "champion": "MAESTRO",
+    "entropy_phase": "exploration",
+    "dataset_size": 313,
+    "timestamp": 1778469190.3327515
+  },
+  "colony_cycle._updated": 1778469190.3327544,
+  "spatternet": {
+    "insights": 6,
+    "timestamp": 1778469265.6659665
+  },
+  "spatternet._updated": 1778469265.6659744,
+  "self_improvement_game": {
+    "episodes": 8,
+    "best_health": 0.6639880952380953,
+    "history": [
+      {
+        "ep": 1,
+        "action": "evolve_population",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 2,
+        "action": "increase_entropy_temp",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 3,
+        "action": "increase_entropy_temp",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 4,
+        "action": "consolidate_knowledge",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 5,
+        "action": "increase_entropy_temp",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 6,
+        "action": "increase_entropy_temp",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 7,
+        "action": "crystallize_skills",
+        "health": 0.6639880952380953
+      },
+      {
+        "ep": 8,
+        "action": "increase_entropy_temp",
+        "health": 0.6639880952380953
+      }
+    ]
+  },
+  "self_improvement_game._updated": 1778469376.7551117,
+  "night_shift": {
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
+  },
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 57,
+    "matches": 1596,
+    "proactive_actions": 38,
+    "scientific_evals": 113,
+    "consolidations": 19,
+    "cycles": 56,
+    "champions": [
+      {
+        "agent": "MEMORIA",
+        "elo": 1053.7432009386137
+      },
+      {
+        "agent": "MEMORIA",
+        "elo": 1050.2404036371236
+      },
+      {
+        "agent": "MEMORIA",
+        "elo": 1074.9680844743416
+      },
+      {
+        "agent": "MEMORIA",
+        "elo": 1062.7273369957331
+      },
+      {
+        "agent": "AUTOPILOT",
+        "elo": 1088.3366474867976
+      }
+    ]
+  },
+  "all_out_status._updated": 1778504436.9738142
+}

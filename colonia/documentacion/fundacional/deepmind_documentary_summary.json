@@ -1,0 +1,26 @@
+{
+  "documental": "DeepMind - La Historia",
+  "duracion": "1h20min",
+  "personajes_clave": [
+    "Demis Hasabis",
+    "Shane Legg",
+    "Mustafa Suleyman",
+    "Peter Thiel",
+    "Elon Musk"
+  ],
+  "hitos": [
+    "DeepMind 2010",
+    "AlphaGo 2016",
+    "AlphaZero 2017",
+    "AlphaStar 2019",
+    "AlphaFold CASP14 2020"
+  ],
+  "insights_extraidos": 10,
+  "lecciones_para_nova": [
+    "Combinar RL + Deep Learning (AlphaGo)",
+    "Cero conocimiento humano → auto-descubrimiento (AlphaZero)",
+    "Juegos como campo de pruebas → transferencia a problemas reales",
+    "Fracaso necesario para el éxito (AlphaFold CASP13→CASP14)",
+    "Generalidad sobre especialización (la G en AGI)"
+  ]
+}

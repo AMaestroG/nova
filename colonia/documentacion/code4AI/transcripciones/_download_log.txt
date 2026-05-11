@@ -1,0 +1,186 @@
+[21:41:29] ==================================================
+[21:41:29] INICIANDO DESCARGA MASIVA
+[21:41:29] Videos: 28
+[21:41:29] Obteniendo proxies (límite 80)...
+[21:42:07]   18 proxies funcionales
+[21:42:07] Pendientes: 28 (ya descargados: 0)
+[21:42:07] 
+[1/28] AGI is Dead SKILLS serve us
+[21:43:08]   ⚠️ Intento 1: sin transcripción
+[21:44:09]   ⚠️ Intento 2: sin transcripción
+[21:44:27]   ⚠️ Intento 3: sin transcripción
+[21:44:36]   ⚠️ Intento 4: sin transcripción
+[21:44:45]   ⚠️ Intento 5: sin transcripción
+[21:44:45]   ❌ FALLÓ después de 5 intentos
+[21:44:45] 
+[2/28] Trace2Skill Qwen Agent
+[21:45:33]   ✅ OK (19625 bytes)
+[21:45:33] 
+[3/28] End of Human-Defined Skills Eigenvectors
+[21:45:42]   ⚠️ Intento 1: sin transcripción
+[21:45:51]   ⚠️ Intento 2: sin transcripción
+[21:46:21]   ⚠️ Intento 3: sin transcripción
+[21:46:30]   ⚠️ Intento 4: sin transcripción
+[21:47:31]   ⚠️ Intento 5: sin transcripción
+[21:47:31]   ❌ FALLÓ después de 5 intentos
+[21:47:31] 
+[4/28] AI Evolve Itself HyEvo
+[21:48:21]   ✅ OK (21826 bytes)
+[21:48:21] 
+[5/28] Self Evolving Dual Agent AutoResearch 2.0
+[21:48:55]   ⚠️ Intento 1: sin transcripción
+[21:48:57]   ⚠️ Intento 2: sin transcripción
+[21:49:06]   ⚠️ Intento 3: sin transcripción
+[21:49:14]   ⚠️ Intento 4: sin transcripción
+[21:49:23]   ⚠️ Intento 5: sin transcripción
+[21:49:23]   ❌ FALLÓ después de 5 intentos
+[21:49:23] Obteniendo proxies (límite 60)...
+[21:50:26]   22 proxies funcionales
+[21:50:26] 
+[6/28] AI Rewrite Itself Darwin-Godel HyperAgent
+[21:50:47]   ⚠️ Intento 1: sin transcripción
+[21:50:56]   ⚠️ Intento 2: sin transcripción
+[21:51:25]   ✅ OK (23484 bytes)
+[21:51:25] 
+[7/28] MEMORY.md not real AI MEMORY
+[21:51:26]   ⚠️ Intento 1: sin transcripción
+[21:51:35]   ⚠️ Intento 2: sin transcripción
+[21:51:43]   ⚠️ Intento 3: sin transcripción
+[21:51:52]   ⚠️ Intento 4: sin transcripción
+[21:52:23]   ⚠️ Intento 5: sin transcripción
+[21:52:23]   ❌ FALLÓ después de 5 intentos
+[21:52:23] 
+[8/28] Words Instead of Weights HERA
+[21:52:52]   ⚠️ Intento 1: sin transcripción
+[21:52:53]   ⚠️ Intento 2: sin transcripción
+[21:54:07]   ⚠️ Intento 3: sin transcripción
+[21:55:09]   ⚠️ Intento 4: sin transcripción
+[21:56:17]   ✅ OK (27970 bytes)
+[21:56:17] 
+[9/28] Multi-Agent Prompt Engineering Dead
+[21:56:35]   ⚠️ Intento 1: sin transcripción
+[21:57:36]   ⚠️ Intento 2: sin transcripción
+[21:57:38]   ⚠️ Intento 3: sin transcripción
+[21:58:09]   ⚠️ Intento 4: sin transcripción
+[21:58:19]   ⚠️ Intento 5: sin transcripción
+[21:58:19]   ❌ FALLÓ después de 5 intentos
+[21:58:19] 
+[10/28] Meta Harness Every AI Needs
+[21:58:28]   ⚠️ Intento 1: sin transcripción
+[21:58:58]   ⚠️ Intento 2: sin transcripción
+[21:59:59]   ⚠️ Intento 3: sin transcripción
+[22:00:08]   ⚠️ Intento 4: sin transcripción
+[22:00:09]   ⚠️ Intento 5: sin transcripción
+[22:00:09]   ❌ FALLÓ después de 5 intentos
+[22:00:09] Obteniendo proxies (límite 60)...
+[22:00:34]   25 proxies funcionales
+[22:00:34] 
+[11/28] Better Cheaper RAG Neuro-Sym
+[22:01:11]   ⚠️ Intento 1: sin transcripción
+[22:01:47]   ⚠️ Intento 2: sin transcripción
+[22:02:47]   ⚠️ Intento 3: sin transcripción
+[22:03:48]   ⚠️ Intento 4: sin transcripción
+[22:04:45]   ⚠️ Intento 5: sin transcripción
+[22:04:45]   ❌ FALLÓ después de 5 intentos
+[22:04:45] 
+[12/28] Knowledge Graphs vs Context Spaces
+[22:04:54]   ⚠️ Intento 1: sin transcripción
+[22:05:55]   ⚠️ Intento 2: sin transcripción
+[22:06:26]   ⚠️ Intento 3: sin transcripción
+[22:07:29]   ⚠️ Intento 4: sin transcripción
+[22:07:30]   ⚠️ Intento 5: sin transcripción
+[22:07:30]   ❌ FALLÓ después de 5 intentos
+[22:07:30] 
+[13/28] SuperIntelligence File System CORAL
+[22:08:24]   ⚠️ Intento 1: sin transcripción
+[22:08:58]   ⚠️ Intento 2: sin transcripción
+[22:09:07]   ⚠️ Intento 3: sin transcripción
+[22:10:08]   ⚠️ Intento 4: sin transcripción
+[22:10:11]   ⚠️ Intento 5: sin transcripción
+[22:10:11]   ❌ FALLÓ después de 5 intentos
+[22:10:11] 
+[14/28] No AI Agent Orchestration Needed
+[22:10:20]   ⚠️ Intento 1: sin transcripción
+[22:11:06]   ⚠️ Intento 2: sin transcripción
+[22:11:36]   ⚠️ Intento 3: sin transcripción
+[22:12:09]   ✅ OK (18966 bytes)
+[22:12:09] 
+[15/28] AI Harness Engineering Future
+[22:13:12]   ⚠️ Intento 1: sin transcripción
+[22:13:20]   ⚠️ Intento 2: sin transcripción
+[22:14:20]   ⚠️ Intento 3: sin transcripción
+[22:15:21]   ⚠️ Intento 4: sin transcripción
+[22:16:28]   ⚠️ Intento 5: sin transcripción
+[22:16:28]   ❌ FALLÓ después de 5 intentos
+[22:16:28] Obteniendo proxies (límite 60)...
+[22:16:45]   48 proxies funcionales
+[22:16:45] 
+[16/28] Text vs K-Graphs Multi-RAG Failing
+[22:17:08]   ✅ OK (26002 bytes)
+[22:17:08] 
+[17/28] RAG Without Text S-Path-RAG
+[22:17:30]   ✅ OK (29707 bytes)
+[22:17:30] 
+[18/28] AI Filesystem Unlock Intelligence
+[22:18:31]   ⚠️ Intento 1: sin transcripción
+[22:19:31]   ⚠️ Intento 2: sin transcripción
+[22:20:17]   ⚠️ Intento 3: sin transcripción
+[22:21:13]   ⚠️ Intento 4: sin transcripción
+[22:21:58]   ⚠️ Intento 5: sin transcripción
+[22:21:58]   ❌ FALLÓ después de 5 intentos
+[22:21:58] 
+[19/28] Pluripotent AI Stem Cells Agents
+[22:22:58]   ⚠️ Intento 1: sin transcripción
+[22:23:29]   ⚠️ Intento 2: sin transcripción
+[22:24:30]   ⚠️ Intento 3: sin transcripción
+[22:25:08]   ⚠️ Intento 4: sin transcripción
+[22:25:40]   ✅ OK (25270 bytes)
+[22:25:40] 
+[20/28] Cognitive AI New Solution
+[22:26:30]   ✅ OK (25889 bytes)
+[22:26:30] Obteniendo proxies (límite 60)...
+[22:27:27]   32 proxies funcionales
+[22:27:27] 
+[21/28] Which 8 Agents Can You Trust
+[22:27:58]   ⚠️ Intento 1: sin transcripción
+[22:28:51]   ⚠️ Intento 2: sin transcripción
+[22:29:20]   ⚠️ Intento 3: sin transcripción
+[22:30:16]   ✅ OK (24832 bytes)
+[22:30:16] 
+[22/28] Absolute Truths Neuro-Symbolic
+[22:31:04]   ✅ OK (26976 bytes)
+[22:31:04] 
+[23/28] META Safe Trustworthy Agents LogAct
+[22:31:57]   ✅ OK (25200 bytes)
+[22:31:57] 
+[24/28] Temporal Predictive AI MILKYWAY
+[22:32:15]   ✅ OK (25744 bytes)
+[22:32:15] 
+[25/28] Quantum Knowledge Graphs AI
+[22:33:16]   ⚠️ Intento 1: sin transcripción
+[22:34:24]   ⚠️ Intento 2: sin transcripción
+[22:35:15]   ✅ OK (17043 bytes)
+[22:35:15] Obteniendo proxies (límite 60)...
+[22:35:46]   15 proxies funcionales
+[22:35:46] 
+[26/28] Test-Time Training Invariant Topologies
+[22:36:47]   ⚠️ Intento 1: sin transcripción
+[22:37:25]   ✅ OK (32010 bytes)
+[22:37:25] 
+[27/28] SFT+RL+RSA Tiny 4B Rivals Gemini
+[22:38:25]   ⚠️ Intento 1: sin transcripción
+[22:38:34]   ⚠️ Intento 2: sin transcripción
+[22:38:43]   ⚠️ Intento 3: sin transcripción
+[22:39:44]   ⚠️ Intento 4: sin transcripción
+[22:40:06]   ⚠️ Intento 5: sin transcripción
+[22:40:06]   ❌ FALLÓ después de 5 intentos
+[22:40:06] 
+[28/28] GraphRAG Redundant Implicit Reasoning
+[22:40:39]   ⚠️ Intento 1: sin transcripción
+[22:41:40]   ⚠️ Intento 2: sin transcripción
+[22:42:28]   ⚠️ Intento 3: sin transcripción
+[22:43:11]   ✅ OK (30667 bytes)
+[22:43:11] 
+==================================================
+[22:43:11] FINALIZADO: 16 OK, 12 FAIL, 28 total
+[22:43:11] Directorio: /home/opc/nova/colonia/documentacion/code4AI/transcripciones

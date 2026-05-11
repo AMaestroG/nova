@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "priority": "maximum",
+  "auto_index": true,
+  "auto_consolidate": true
+}

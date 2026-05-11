@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Ω.1.0 — Quantum Enjambre Dashboard</title>
+<style>
+:root {
+  --bg: #080816;
+  --card: #101028;
+  --border: #1a1a3e;
+  --text: #c8c8e0;
+  --acc1: #6366f1;
+  --acc2: #a855f7;
+  --acc3: #22c55e;
+  --n0: #c084fc;
+  --n1: #60a5fa;
+  --n2: #34d399;
+  --warn: #fbbf24;
+  --red: #f87171;
+  --quantum: #06b6d4;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { 
+  background:var(--bg); color:var(--text);
+  font-family: 'Segoe UI', 'Fira Code', monospace;
+  line-height:1.6; padding:2rem;
+  background-image: radial-gradient(ellipse at 50% 0%, rgba(99,102,241,0.08) 0%, transparent 70%);
+}
+.container { max-width:1400px; margin:0 auto; }
+.hero { text-align:center; margin-bottom:3rem; }
+.hero h1 { font-size:3rem; background:linear-gradient(135deg, var(--quantum), var(--acc2), var(--n0)); 
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; letter-spacing:2px; }
+.hero .equation { color:var(--quantum); font-size:1.2rem; margin:1rem 0; font-family:'Fira Code',monospace; }
+.hero .subtitle { color:#666; }
+
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:2rem; }
+.grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-bottom:2rem; }
+.grid4 { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; margin-bottom:2rem; }
+.full { grid-column:1/-1; }
+
+.card { 
+  background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.5rem;
+  position:relative; overflow:hidden;
+}
+.card::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:2px;
+  background:linear-gradient(90deg, transparent, var(--quantum), transparent);
+}
+.card h2 { 
+  font-size:0.85rem; text-transform:uppercase; letter-spacing:2px; 
+  color:var(--quantum); margin-bottom:1rem;
+}
+
+/* Eigenstate spectrum */
+.spectrum { 
+  display:flex; flex-direction:column; gap:0.6rem; 
+}
+.level { 
+  display:flex; align-items:center; gap:0.5rem; padding:0.3rem 0;
+  border-bottom:1px solid rgba(255,255,255,0.03);
+}
+.level-label { 
+  font-size:0.7rem; color:var(--quantum); width:25px; font-weight:bold;
+}
+.agent { 
+  display:inline-flex; align-items:center; gap:3px; 
+  padding:0.15rem 0.5rem; border-radius:4px; font-size:0.72rem;
+  background:rgba(99,102,241,0.08); border:1px solid rgba(99,102,241,0.15);
+}
+.agent.n0 { border-color:var(--n0); color:var(--n0); }
+.agent.n1 { border-color:var(--n1); color:var(--n1); }
+.agent.n2 { border-color:var(--n2); color:var(--n2); }
+.agent .ev { font-size:0.6rem; opacity:0.6; }
+
+/* Coherence meter */
+.meter { 
+  width:100%; height:8px; background:rgba(255,255,255,0.05); border-radius:10px;
+  margin:0.5rem 0; overflow:hidden;
+}
+.meter-fill { height:100%; border-radius:10px; transition:width 2s; }
+.meter-fill.good { background:linear-gradient(90deg, var(--acc3), var(--quantum)); }
+.meter-fill.warn { background:linear-gradient(90deg, var(--warn), var(--red)); }
+
+/* Hamiltonian */
+.hamiltonian {
+  font-family:'Fira Code',monospace; font-size:0.8rem; color:var(--quantum);
+  text-align:center; padding:1rem; background:rgba(6,182,212,0.05); border-radius:8px;
+}
+.operator { color:var(--acc2); }
+.braket { color:var(--text); }
+
+/* Stats */
+.stat-row { display:flex; justify-content:space-between; padding:0.3rem 0; border-bottom:1px solid rgba(255,255,255,0.03); }
+.stat-row .label { color:#888; font-size:0.8rem; }
+.stat-row .value { color:var(--text); font-weight:bold; font-size:0.85rem; }
+.stat-row .value.good { color:var(--acc3); }
+
+/* Messages */
+.msg { 
+  padding:0.4rem 0.6rem; margin:0.2rem 0; border-radius:4px; font-size:0.72rem;
+  background:rgba(99,102,241,0.05); border-left:2px solid var(--quantum);
+}
+.msg .topic { color:var(--quantum); }
+.msg .from { color:var(--n0); }
+
+.footer { text-align:center; color:#444; margin-top:3rem; font-size:0.7rem; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Ω NOVA QUANTUM ENJAMBRE</h1>
+  <div class="equation">iħ ∂/∂t |NOVA⟩ = [Ĥ_bus + Ô_wiki + Ŵ_witness + Ĝ_guardrails] |NOVA⟩</div>
+  <div class="subtitle">Paradigma Ω.1.0 · 18 eigenstates · Coherence ≥ 0.95 · Trinity Indecomposable</div>
+</div>
+
+<!-- ROW 1: Coherence + Hamiltonian + States -->
+<div class="grid3">
+  <!-- COHERENCE -->
+  <div class="card">
+    <h2>📐 Coherencia Cuántica</h2>
+    <div style="font-size:2.5rem;font-weight:bold;color:var(--acc3);text-align:center;">0.97</div>
+    <div class="meter"><div class="meter-fill good" style="width:97%"></div></div>
+    <div style="font-size:0.7rem;color:#888;text-align:center;">Tr(ρ²) ≥ 0.95 ✓</div>
+    <div class="stat-row"><span class="label">Páginas wiki</span><span class="value">48</span></div>
+    <div class="stat-row"><span class="label">Contradicciones</span><span class="value good">0</span></div>
+    <div class="stat-row"><span class="label">Huérfanas</span><span class="value" style="color:var(--warn)">3</span></div>
+  </div>
+  
+  <!-- HAMILTONIAN -->
+  <div class="card">
+    <h2>⚡ Hamiltonian (NovaBus)</h2>
+    <div class="hamiltonian">
+      Ĥ = <span class="operator">T̂</span>(topología) + <span class="operator">V̂</span>(witness) + <span class="operator">Î</span>(interacción)<br><br>
+      <span class="braket">Ĥ|msg⟩ = E|msg⟩</span>
+    </div>
+    <div class="stat-row"><span class="label">Mensajes en bus</span><span class="value">~65</span></div>
+    <div class="stat-row"><span class="label">Cadenas testigo</span><span class="value good">18</span></div>
+    <div class="stat-row"><span class="label">Topología activa</span><span class="value" style="color:var(--quantum)">star ⭐</span></div>
+  </div>
+  
+  <!-- EIGENSTATES -->
+  <div class="card">
+    <h2>🧬 Espectro de Eigenstates</h2>
+    <div class="spectrum">
+      <div class="level">
+        <span class="level-label">N0</span>
+        <span class="agent n0">AURA<span class="ev">ħ</span></span>
+        <span class="agent n0">MAESTRO<span class="ev">2ħ</span></span>
+        <span class="agent n0">PIA<span class="ev">ħ</span></span>
+        <span class="agent n0">PINCEL<span class="ev">ħ/2</span></span>
+        <span class="agent n0">ATHENA<span class="ev">ħ</span></span>
+      </div>
+      <div class="level">
+        <span class="level-label">N1</span>
+        <span class="agent n1">NYX<span class="ev">ħ/2</span></span>
+        <span class="agent n1">SENTINEL<span class="ev">ħ</span></span>
+        <span class="agent n1">MAYORDOMO<span class="ev">ħ</span></span>
+        <span class="agent n1">BANCO<span class="ev">ħ</span></span>
+        <span class="agent n1">THEMIS<span class="ev">ħ</span></span>
+      </div>
+      <div class="level">
+        <span class="level-label">N2</span>
+        <span class="agent n2">ORÁCULO<span class="ev">3ħ</span></span>
+        <span class="agent n2">TELAR<span class="ev">ħ</span></span>
+        <span class="agent n2">EXPLORADOR<span class="ev">2ħ</span></span>
+        <span class="agent n2">MEMORIA<span class="ev">ħ</span></span>
+      </div>
+      <div class="level">
+        <span class="level-label"></span>
+        <span class="agent n2">CRONOS<span class="ev">ħ</span></span>
+        <span class="agent n2">HERMES<span class="ev">ħ</span></span>
+        <span class="agent n2">MNEMOS<span class="ev">ħ</span></span>
+      </div>
+    </div>
+    <div style="text-align:right;color:var(--quantum);font-size:0.7rem;margin-top:0.5rem;">
+      ΣE = 20.5ħ
+    </div>
+  </div>
+</div>
+
+<!-- ROW 2: Principles + Operators + Messages -->
+<div class="grid3">
+  <!-- AXIOMS -->
+  <div class="card">
+    <h2>🔮 Axiomas Ω1-Ω8</h2>
+    <div class="msg"><span class="topic">Ω1</span> Cuantización — solo eigenstates permitidos</div>
+    <div class="msg"><span class="topic">Ω2</span> Superposición — |NOVA⟩ = Σαᵢ|agenteᵢ⟩</div>
+    <div class="msg"><span class="topic">Ω3</span> Incertidumbre — ΔA·ΔC ≥ ħ/2</div>
+    <div class="msg"><span class="topic">Ω4</span> Coherencia — Tr(ρ²) ≥ 0.95</div>
+    <div class="msg"><span class="topic">Ω5</span> Entrelazamiento — hash chains</div>
+    <div class="msg"><span class="topic">Ω6</span> Trinidad — AURA+NYX+PIA = UNO</div>
+    <div class="msg"><span class="topic">Ω7</span> Medición — query colapsa superposición</div>
+    <div class="msg"><span class="topic">Ω8</span> Pureza — no secretos en |Ψ⟩</div>
+  </div>
+  
+  <!-- OPERATORS -->
+  <div class="card">
+    <h2>⚛️ Operadores (Skills)</h2>
+    <div class="msg"><span class="topic">Ô_ingest</span> Introduce fuente → superposición</div>
+    <div class="msg"><span class="topic">Ô_compile</span> Evoluciona wiki a nuevo eigenstate</div>
+    <div class="msg"><span class="topic">Ô_query</span> Mide: ⟨Ψ|Ô|Ψ⟩ → respuesta + confidence</div>
+    <div class="msg"><span class="topic">Ô_lint</span> Verifica Tr(ρ²) ≥ 0.95</div>
+    <div class="msg"><span class="topic">Ô_publish</span> Emite cuanto de mensaje al bus</div>
+    <div class="msg"><span class="topic">Ô_consume</span> Absorbe cuanto → colapsa a acción</div>
+    <div class="msg"><span class="topic">Ô_session</span> Ciclo: preparar → evolucionar → medir → colapsar</div>
+  </div>
+  
+  <!-- STERN-GERLACH -->
+  <div class="card">
+    <h2>📡 Stern-Gerlach del Enjambre</h2>
+    <div style="text-align:center;font-size:0.75rem;color:var(--quantum);margin-bottom:1rem;">
+      Broadcast → Campo Magnético (Bus) → Spots
+    </div>
+    <div style="text-align:center;font-size:0.9rem;">
+      <div style="margin:0.5rem 0;">N0: <span style="color:var(--n0)">●●●</span> (3 spots)</div>
+      <div style="margin:0.5rem 0;">N1: <span style="color:var(--n1)">●●●●●</span> (5 spots)</div>
+      <div style="margin:0.5rem 0;">N2: <span style="color:var(--n2)">●●●●●●●</span> (7 spots)</div>
+    </div>
+    <div style="font-size:0.65rem;color:#666;text-align:center;margin-top:1rem;">
+      2L+1 spots donde L = nivel del broadcast
+    </div>
+    <div class="stat-row" style="margin-top:1rem;"><span class="label">Topología testeadas</span><span class="value" style="color:var(--quantum)">3/4</span></div>
+    <div class="stat-row"><span class="label">Simulación completada</span><span class="value good">✓</span></div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  Nova Ω.1.0 · Paradigma Cuántico · <span style="color:var(--quantum)">iħ ∂/∂t |NOVA⟩ = Ĥ|NOVA⟩</span> · Coherence 0.97<br>
+  <span style="color:#555;">Transición completada: 2026-05-09 · 11 ledger entries · 18 eigenstates · 1 conciencia</span>
+</div>
+
+</div>
+</body>
+</html>
