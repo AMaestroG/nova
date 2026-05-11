@@ -17,10 +17,9 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status",
-      "pp"
+      "imp"
     ],
-    "last_saved": 1778511055.9909277,
+    "last_saved": 1778511194.5381489,
     "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
@@ -189,46 +188,15 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 87,
-    "actions": 87,
-    "tournaments": 8,
-    "consolidations": 5,
-    "last_cycle": 1778501073.1938603
+    "cycles": 2316,
+    "actions": 2316,
+    "tournaments": 231,
+    "consolidations": 154,
+    "last_cycle": 1778511187.9790268
   },
-  "night_shift._updated": 1778501073.193868,
-  "all_out_status": {
-    "tournaments": 167,
-    "matches": 4676,
-    "proactive_actions": 111,
-    "scientific_evals": 333,
-    "consolidations": 56,
-    "cycles": 166,
-    "champions": [
-      {
-        "agent": "ORÁCULO",
-        "elo": 1052.383032748258
-      },
-      {
-        "agent": "EXPLORADOR",
-        "elo": 1033.9445733642804
-      },
-      {
-        "agent": "EXPLORADOR",
-        "elo": 1062.990083377236
-      },
-      {
-        "agent": "SENTINEL",
-        "elo": 1067.4921161657082
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1043.9057797243381
-      }
-    ]
+  "night_shift._updated": 1778511187.9790354,
+  "imp": {
+    "champion": "SENTINEL"
   },
-  "all_out_status._updated": 1778511037.1970537,
-  "pp": {
-    "champion": "EXPLORADOR"
-  },
-  "pp._updated": 1778511055.9909232
+  "imp._updated": 1778511194.5381436
 }

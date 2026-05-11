@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 74,
+      "attempts": 75,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510532.0253487,
+      "last_attempt": 1778511099.9121006,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 69,
+      "attempts": 70,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510600.0556784,
+      "last_attempt": 1778511126.2617362,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 64,
+      "attempts": 65,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510662.9476855,
+      "last_attempt": 1778511156.7393792,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 47,
+      "attempts": 48,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509678.7688768,
+      "last_attempt": 1778511178.40532,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 904,
+    "total_processed": 908,
     "total_extracted": 0,
-    "total_failed": 904,
+    "total_failed": 908,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778511034.952
+  "saved_at": 1778511178.405394
 }
