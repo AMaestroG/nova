@@ -16,10 +16,12 @@
       "colony_cycle",
       "spatternet",
       "self_improvement_game",
-      "night_shift"
+      "night_shift",
+      "all_out_status",
+      "backprop"
     ],
-    "last_saved": 1778520672.7344027,
-    "save_count": 945,
+    "last_saved": 1778520926.7540138,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -187,11 +189,47 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 2838,
-    "actions": 2838,
-    "tournaments": 283,
-    "consolidations": 189,
-    "last_cycle": 1778520672.7343924
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
   },
-  "night_shift._updated": 1778520672.7344
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 330,
+    "matches": 9240,
+    "proactive_actions": 220,
+    "scientific_evals": 660,
+    "consolidations": 110,
+    "cycles": 330,
+    "champions": [
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1029.667973508082
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1068.713207202864
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1057.8136107559785
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1108.294067674373
+      },
+      {
+        "agent": "YOUTUBE",
+        "elo": 1107.0314711638707
+      }
+    ]
+  },
+  "all_out_status._updated": 1778520920.7091377,
+  "backprop": {
+    "accuracy": 0.5,
+    "epochs": 100
+  },
+  "backprop._updated": 1778520926.7540069
 }

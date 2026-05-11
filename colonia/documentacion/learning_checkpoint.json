@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 108,
+      "attempts": 109,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778520249.199467,
+      "last_attempt": 1778520794.4189038,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 103,
+      "attempts": 104,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778520310.2352335,
+      "last_attempt": 1778520874.7430277,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 95,
+      "attempts": 96,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778520373.1294014,
+      "last_attempt": 1778520907.9658585,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 73,
+      "attempts": 74,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519912.9716127,
+      "last_attempt": 1778520714.019004,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1092,
+    "total_processed": 1096,
     "total_extracted": 0,
-    "total_failed": 1092,
+    "total_failed": 1096,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778520676.8595653
+  "saved_at": 1778520907.9659345
 }
