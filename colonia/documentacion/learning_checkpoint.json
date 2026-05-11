@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 71,
+      "attempts": 72,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511791.6733046,
+      "last_attempt": 1778512587.8660355,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 66,
+      "attempts": 67,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778512025.813254,
+      "last_attempt": 1778512619.3481295,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 48,
+      "attempts": 49,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511178.40532,
+      "last_attempt": 1778512696.402332,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 930,
+    "total_processed": 933,
     "total_extracted": 0,
-    "total_failed": 930,
+    "total_failed": 933,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778512520.7184346
+  "saved_at": 1778512696.4024105
 }
