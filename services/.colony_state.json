@@ -17,10 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "nucleo"
+      "all_out_status"
     ],
-    "last_saved": 1778519217.0397937,
-    "save_count": 1,
+    "last_saved": 1778519270.6622474,
+    "save_count": 605,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -188,17 +188,42 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 2757,
-    "actions": 2757,
-    "tournaments": 275,
-    "consolidations": 183,
-    "last_cycle": 1778519215.827463
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
   },
-  "night_shift._updated": 1778519215.827471,
-  "nucleo": {
-    "champion": "MAESTRO",
-    "hive_cycles": 11,
-    "memes": 10
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 303,
+    "matches": 8484,
+    "proactive_actions": 202,
+    "scientific_evals": 605,
+    "consolidations": 101,
+    "cycles": 303,
+    "champions": [
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1072.539940896864
+      },
+      {
+        "agent": "AUTOPILOT",
+        "elo": 1047.8102979258745
+      },
+      {
+        "agent": "AUTOPILOT",
+        "elo": 1075.778431908522
+      },
+      {
+        "agent": "AUTOPILOT",
+        "elo": 1093.387351063147
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1099.1227587126375
+      }
+    ]
   },
-  "nucleo._updated": 1778519217.0397909
+  "all_out_status._updated": 1778519270.662243
 }
