@@ -47080,5 +47080,425 @@
     "input": "",
     "output": "LLM is not good enough, this synthesization of a relationship will just be not as beautiful as we expect",
     "source": "OjQAOEUe_ng"
+  },
+  {
+    "instruction": "What is AGI?",
+    "input": "",
+    "output": "AGI is dead skill will serve us better the idea was industry cannot and will not scale purely statistical LLMs for mission critical task in finance in medical pipelines in aviation whatever you have a statistical model inherently possesses a nonzero hallucination rate and if a model is even 99% accurate this 1% failure rate is catastrophic when you executed your millions of enterprise database operation so therefore it was the hope with encoding the capabilities into skill markdown files and Python script we can solve here for the enterprise trust problem but yeah we encounter a lot of other problems you find all of this here in this video here starting from linguistic interfaces and interpretability to whatever think about the other analog I started this video with scientists we don't trust quantum computing anymore hey why no this is science pure because we need we know that we need quantum error correction codes",
+    "source": "ASyJgzGE2aw"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is able to distinguish the entities come up here with all the relation and build triples that are a first working experiment wait Yeah, our multimodal uh atomic unit is of course defined here in a mathematical way as a tuple that you know",
+    "source": "jJ3vBj7Xufc"
+  },
+  {
+    "instruction": "What is embedding?",
+    "input": "",
+    "output": "embedding is stored here in a library developed by meter for billion scale similarity search",
+    "source": "jJ3vBj7Xufc"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is given a skillmd document to read before doing its evaluation, its job, its task",
+    "source": "g3lh7U_rV9w"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is the 120B",
+    "source": "g3lh7U_rV9w"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is fed as I told you to get a parent graph gore parent",
+    "source": "VdPwMYHVOWE"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is looking here at the execution log, the token cost, the latency, and the RS, and it says, okay, the LLM node keeps hallucinating some mathematical formulas here",
+    "source": "VdPwMYHVOWE"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is built on our DGM hyper and as you see here we also have here if you want a tree here of parents and child and so on and we hope that it automatically self-improve to become here and this is an example of a paper review task and you see suddenly the machine thinks oh yeah maybe I should have a memory tool maybe I have a task evaluation criteria Maybe I should update my memory",
+    "source": "XLOpRWLUymw"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is somehow fixed on a particular domain polarization, it can only improve the base agent within the narrow corridors that are envisioned by its human creator because the meta agent here of girdle is programmed here by human",
+    "source": "XLOpRWLUymw"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not trained at all",
+    "source": "ziaNZCtjuPI"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is frozen",
+    "source": "ziaNZCtjuPI"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is not just chatting along",
+    "source": "bECA_S805As"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is they really now so good that we can trust them we don't have to build the scaffolding around those AI the harness around the AI interesting and here you have to numerical results",
+    "source": "bECA_S805As"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is retrieved",
+    "source": "NPN8s528714"
+  },
+  {
+    "instruction": "What is graph?",
+    "input": "",
+    "output": "graph is sufficient or we have a competitive multihop requires joint interference over uh evidence text and evidence knowledge graph",
+    "source": "NPN8s528714"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not learning at all with these file systems",
+    "source": "cwpTV3MrRm4"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is not explicitly preserved and put into some MD files, reasoning suddenly becomes now for these new super intelligent EI system like mitos and emergent reconstruction task rather than a direct graph traversal task which is significantly less reliable under some realistic model constraints",
+    "source": "cwpTV3MrRm4"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is obsolete",
+    "source": "BLrzMkF8trs"
+  },
+  {
+    "instruction": "What is graph?",
+    "input": "",
+    "output": "graph is done introduced into the protoural memory",
+    "source": "BLrzMkF8trs"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is just trying out some mathematical proof solution",
+    "source": "OGjzEF5SoGs"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is fine-tuned on standard question proof pairs to learn here the basic syntax",
+    "source": "OGjzEF5SoGs"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is below a non-reasoning model",
+    "source": "ArBpFCkYvl4"
+  },
+  {
+    "instruction": "What is llm?",
+    "input": "",
+    "output": "llm is deciding actually nothing because the user types write the summary of this website but use two spaces and the web scrapper says this and then you have your in their case the python middleware the deterministic code that they define and they say listen if you are a little tool and your tool property 12 or whatever however you define this now you assign values to them now so the Python middleware now intercepts here the strings before they ever reach here the analyzing LLM so it applies here the predetermined tax using basic string concatenation here if we have here a Python middleware a deterministic code that decides this",
+    "source": "ArBpFCkYvl4"
+  },
+  {
+    "instruction": "What is transformer?",
+    "input": "",
+    "output": "transformer is here an auto reggressive system and by bounding here the LLM's role to divergent hypothesis generation and then utilizing exact verifiers for the convergent proof validation",
+    "source": "beCj-7xjVmI"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is just providing here the prior sorry we have to connect to an external solver from prologue lean 4 or go with a Python C++ whatever you like",
+    "source": "beCj-7xjVmI"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is not perfect",
+    "source": "kEUXyH5Vfjc"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is now reimagined as a deconstructed state machine playing a shared log",
+    "source": "kEUXyH5Vfjc"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is our LLM",
+    "source": "22aOG0mTlO0"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not deterministic but probabilistic and to make the system trustworthy we have to build the fenge of the let's call it AI harness around the probabilistic core to have a deterministic interpret interpretable result here of the complete AI system but now we need maybe a probabilistic skillmd file is this possible what do you So this means all our skill MD files that you see here at the edge of the fringe here of our LLM when they enter now here into the Y harnessers",
+    "source": "22aOG0mTlO0"
+  },
+  {
+    "instruction": "What is graph?",
+    "input": "",
+    "output": "graph is from quantum mechanics absolutely but you know I think that the real implementation that the order has chosen is not in a Hilbert space with unitary operators where we really do quantum calculation and quantum mechanics here and quantum computing but a little bit sad the or show us here in their publication they only take the idea but they implement it here in a classical AI fashion with a multi- aent system so okay I don't want to be sad here in any way the idea comes from quantum mechanics but just that you be advised if you hope here that we have here implementation here with a real quantum machine unfortunately no we go with a multi- aent system but it has some inherent cleverness So now you know in general ragia industry is obsessed with hooking up LLMs to external memory vector databases or graph databases here officially to solve and reduce the elucination",
+    "source": "5E3EAh43E4E"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is most likely to contaminate here your multi- aent communication",
+    "source": "5E3EAh43E4E"
+  },
+  {
+    "instruction": "What is transformer?",
+    "input": "",
+    "output": "transformer is secretly our fast weight programmers",
+    "source": "SrHSjQkBIrY"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is treated here really as dynamic system time dependent system where they isolated specific topological manifold within the latent space to enforce robust logical even variance as I just discussed with you",
+    "source": "SrHSjQkBIrY"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is pre-organized in node edges or hierarchical summaries, your knowledge graphs or raptor tree structures",
+    "source": "OjQAOEUe_ng"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not good enough, this synthesization of a relationship will just be not as beautiful as we expect",
+    "source": "OjQAOEUe_ng"
+  },
+  {
+    "instruction": "What is AGI?",
+    "input": "",
+    "output": "AGI is dead skill will serve us better the idea was industry cannot and will not scale purely statistical LLMs for mission critical task in finance in medical pipelines in aviation whatever you have a statistical model inherently possesses a nonzero hallucination rate and if a model is even 99% accurate this 1% failure rate is catastrophic when you executed your millions of enterprise database operation so therefore it was the hope with encoding the capabilities into skill markdown files and Python script we can solve here for the enterprise trust problem but yeah we encounter a lot of other problems you find all of this here in this video here starting from linguistic interfaces and interpretability to whatever think about the other analog I started this video with scientists we don't trust quantum computing anymore hey why no this is science pure because we need we know that we need quantum error correction codes",
+    "source": "ASyJgzGE2aw"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is able to distinguish the entities come up here with all the relation and build triples that are a first working experiment wait Yeah, our multimodal uh atomic unit is of course defined here in a mathematical way as a tuple that you know",
+    "source": "jJ3vBj7Xufc"
+  },
+  {
+    "instruction": "What is embedding?",
+    "input": "",
+    "output": "embedding is stored here in a library developed by meter for billion scale similarity search",
+    "source": "jJ3vBj7Xufc"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is given a skillmd document to read before doing its evaluation, its job, its task",
+    "source": "g3lh7U_rV9w"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is the 120B",
+    "source": "g3lh7U_rV9w"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is fed as I told you to get a parent graph gore parent",
+    "source": "VdPwMYHVOWE"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is looking here at the execution log, the token cost, the latency, and the RS, and it says, okay, the LLM node keeps hallucinating some mathematical formulas here",
+    "source": "VdPwMYHVOWE"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is built on our DGM hyper and as you see here we also have here if you want a tree here of parents and child and so on and we hope that it automatically self-improve to become here and this is an example of a paper review task and you see suddenly the machine thinks oh yeah maybe I should have a memory tool maybe I have a task evaluation criteria Maybe I should update my memory",
+    "source": "XLOpRWLUymw"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is somehow fixed on a particular domain polarization, it can only improve the base agent within the narrow corridors that are envisioned by its human creator because the meta agent here of girdle is programmed here by human",
+    "source": "XLOpRWLUymw"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not trained at all",
+    "source": "ziaNZCtjuPI"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is frozen",
+    "source": "ziaNZCtjuPI"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is not just chatting along",
+    "source": "bECA_S805As"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is they really now so good that we can trust them we don't have to build the scaffolding around those AI the harness around the AI interesting and here you have to numerical results",
+    "source": "bECA_S805As"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is retrieved",
+    "source": "NPN8s528714"
+  },
+  {
+    "instruction": "What is graph?",
+    "input": "",
+    "output": "graph is sufficient or we have a competitive multihop requires joint interference over uh evidence text and evidence knowledge graph",
+    "source": "NPN8s528714"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not learning at all with these file systems",
+    "source": "cwpTV3MrRm4"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is not explicitly preserved and put into some MD files, reasoning suddenly becomes now for these new super intelligent EI system like mitos and emergent reconstruction task rather than a direct graph traversal task which is significantly less reliable under some realistic model constraints",
+    "source": "cwpTV3MrRm4"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is obsolete",
+    "source": "BLrzMkF8trs"
+  },
+  {
+    "instruction": "What is graph?",
+    "input": "",
+    "output": "graph is done introduced into the protoural memory",
+    "source": "BLrzMkF8trs"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is just trying out some mathematical proof solution",
+    "source": "OGjzEF5SoGs"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is fine-tuned on standard question proof pairs to learn here the basic syntax",
+    "source": "OGjzEF5SoGs"
+  },
+  {
+    "instruction": "What is model?",
+    "input": "",
+    "output": "model is below a non-reasoning model",
+    "source": "ArBpFCkYvl4"
+  },
+  {
+    "instruction": "What is llm?",
+    "input": "",
+    "output": "llm is deciding actually nothing because the user types write the summary of this website but use two spaces and the web scrapper says this and then you have your in their case the python middleware the deterministic code that they define and they say listen if you are a little tool and your tool property 12 or whatever however you define this now you assign values to them now so the Python middleware now intercepts here the strings before they ever reach here the analyzing LLM so it applies here the predetermined tax using basic string concatenation here if we have here a Python middleware a deterministic code that decides this",
+    "source": "ArBpFCkYvl4"
+  },
+  {
+    "instruction": "What is transformer?",
+    "input": "",
+    "output": "transformer is here an auto reggressive system and by bounding here the LLM's role to divergent hypothesis generation and then utilizing exact verifiers for the convergent proof validation",
+    "source": "beCj-7xjVmI"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is just providing here the prior sorry we have to connect to an external solver from prologue lean 4 or go with a Python C++ whatever you like",
+    "source": "beCj-7xjVmI"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is not perfect",
+    "source": "kEUXyH5Vfjc"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is now reimagined as a deconstructed state machine playing a shared log",
+    "source": "kEUXyH5Vfjc"
+  },
+  {
+    "instruction": "What is agent?",
+    "input": "",
+    "output": "agent is our LLM",
+    "source": "22aOG0mTlO0"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not deterministic but probabilistic and to make the system trustworthy we have to build the fenge of the let's call it AI harness around the probabilistic core to have a deterministic interpret interpretable result here of the complete AI system but now we need maybe a probabilistic skillmd file is this possible what do you So this means all our skill MD files that you see here at the edge of the fringe here of our LLM when they enter now here into the Y harnessers",
+    "source": "22aOG0mTlO0"
+  },
+  {
+    "instruction": "What is graph?",
+    "input": "",
+    "output": "graph is from quantum mechanics absolutely but you know I think that the real implementation that the order has chosen is not in a Hilbert space with unitary operators where we really do quantum calculation and quantum mechanics here and quantum computing but a little bit sad the or show us here in their publication they only take the idea but they implement it here in a classical AI fashion with a multi- aent system so okay I don't want to be sad here in any way the idea comes from quantum mechanics but just that you be advised if you hope here that we have here implementation here with a real quantum machine unfortunately no we go with a multi- aent system but it has some inherent cleverness So now you know in general ragia industry is obsessed with hooking up LLMs to external memory vector databases or graph databases here officially to solve and reduce the elucination",
+    "source": "5E3EAh43E4E"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is most likely to contaminate here your multi- aent communication",
+    "source": "5E3EAh43E4E"
+  },
+  {
+    "instruction": "What is transformer?",
+    "input": "",
+    "output": "transformer is secretly our fast weight programmers",
+    "source": "SrHSjQkBIrY"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is treated here really as dynamic system time dependent system where they isolated specific topological manifold within the latent space to enforce robust logical even variance as I just discussed with you",
+    "source": "SrHSjQkBIrY"
+  },
+  {
+    "instruction": "What is knowledge?",
+    "input": "",
+    "output": "knowledge is pre-organized in node edges or hierarchical summaries, your knowledge graphs or raptor tree structures",
+    "source": "OjQAOEUe_ng"
+  },
+  {
+    "instruction": "What is LLM?",
+    "input": "",
+    "output": "LLM is not good enough, this synthesization of a relationship will just be not as beautiful as we expect",
+    "source": "OjQAOEUe_ng"
   }
 ]
