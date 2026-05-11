@@ -19,8 +19,8 @@
       "night_shift",
       "all_out_status"
     ],
-    "last_saved": 1778519990.6827075,
-    "save_count": 629,
+    "last_saved": 1778520350.693281,
+    "save_count": 641,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -196,34 +196,34 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 315,
-    "matches": 8820,
-    "proactive_actions": 210,
-    "scientific_evals": 629,
-    "consolidations": 105,
-    "cycles": 315,
+    "tournaments": 321,
+    "matches": 8988,
+    "proactive_actions": 214,
+    "scientific_evals": 641,
+    "consolidations": 107,
+    "cycles": 321,
     "champions": [
       {
-        "agent": "PIA",
-        "elo": 1099.0053571049368
+        "agent": "MEMORIA",
+        "elo": 1116.4504752318935
       },
       {
-        "agent": "PIA",
-        "elo": 1082.2426303078764
+        "agent": "MEMORIA",
+        "elo": 1069.4958530557287
       },
       {
-        "agent": "ORÁCULO",
-        "elo": 1082.3513125451677
+        "agent": "EXPLORADOR",
+        "elo": 1072.675589403678
       },
       {
-        "agent": "SENTINEL",
-        "elo": 1074.727647339969
+        "agent": "EXPLORADOR",
+        "elo": 1122.438934233256
       },
       {
-        "agent": "SENTINEL",
-        "elo": 1087.7551612725617
+        "agent": "EXPLORADOR",
+        "elo": 1043.4590430077108
       }
     ]
   },
-  "all_out_status._updated": 1778519990.682703
+  "all_out_status._updated": 1778520350.6932764
 }

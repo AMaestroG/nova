@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 107,
+      "attempts": 108,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519730.8368604,
+      "last_attempt": 1778520249.199467,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 105,
+      "attempts": 106,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519519.6698413,
+      "last_attempt": 1778520008.72443,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 103,
+      "attempts": 104,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519553.9230218,
+      "last_attempt": 1778520037.3209178,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 102,
+      "attempts": 103,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519796.0555093,
+      "last_attempt": 1778520310.2352335,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 97,
+      "attempts": 98,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519585.282464,
+      "last_attempt": 1778520076.4382033,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 89,
+      "attempts": 90,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519605.4299476,
+      "last_attempt": 1778520102.0876808,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 82,
+      "attempts": 83,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778519416.7119372,
+      "last_attempt": 1778520174.0831697,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1078,
+    "total_processed": 1085,
     "total_extracted": 0,
-    "total_failed": 1078,
+    "total_failed": 1085,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778519974.2995887
+  "saved_at": 1778520310.235308
 }
