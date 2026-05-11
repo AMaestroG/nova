@@ -17,10 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status"
+      "implement"
     ],
-    "last_saved": 1778510377.1743448,
-    "save_count": 311,
+    "last_saved": 1778510646.4270906,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -188,42 +188,16 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 87,
-    "actions": 87,
-    "tournaments": 8,
-    "consolidations": 5,
-    "last_cycle": 1778501073.1938603
+    "cycles": 618,
+    "actions": 618,
+    "tournaments": 61,
+    "consolidations": 41,
+    "last_cycle": 1778510638.1701937
   },
-  "night_shift._updated": 1778501073.193868,
-  "all_out_status": {
-    "tournaments": 156,
-    "matches": 4368,
-    "proactive_actions": 104,
-    "scientific_evals": 311,
-    "consolidations": 52,
-    "cycles": 155,
-    "champions": [
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1062.884708944822
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1107.4657374571225
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1119.1719673767914
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1129.0644878190833
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1109.073089426535
-      }
-    ]
+  "night_shift._updated": 1778510638.170202,
+  "implement": {
+    "champion": "ORÁCULO",
+    "delegations": 1
   },
-  "all_out_status._updated": 1778510377.1743402
+  "implement._updated": 1778510646.427086
 }
