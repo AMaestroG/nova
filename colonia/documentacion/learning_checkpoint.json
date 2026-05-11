@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 44,
+      "attempts": 45,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778518352.547056,
+      "last_attempt": 1778519974.2995124,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1077,
+    "total_processed": 1078,
     "total_extracted": 0,
-    "total_failed": 1077,
+    "total_failed": 1078,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778519912.9716902
+  "saved_at": 1778519974.2995887
 }
