@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 98,
+      "attempts": 99,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778515287.7007182,
+      "last_attempt": 1778515750.3888729,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 993,
+    "total_processed": 994,
     "total_extracted": 0,
-    "total_failed": 993,
+    "total_failed": 994,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778515682.2433584
+  "saved_at": 1778515750.3889575
 }
