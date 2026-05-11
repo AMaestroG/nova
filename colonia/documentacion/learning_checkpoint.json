@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 63,
+      "attempts": 64,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510009.046701,
+      "last_attempt": 1778510662.9476855,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 59,
+      "attempts": 60,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510070.081017,
+      "last_attempt": 1778510708.0898,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 896,
+    "total_processed": 898,
     "total_extracted": 0,
-    "total_failed": 896,
+    "total_failed": 898,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778510600.0557556
+  "saved_at": 1778510708.0898793
 }
