@@ -17,11 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status",
-      "cultura"
+      "all_out_status"
     ],
-    "last_saved": 1778519456.9334812,
-    "save_count": 1,
+    "last_saved": 1778519900.6802511,
+    "save_count": 626,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -197,42 +196,34 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 306,
-    "matches": 8568,
-    "proactive_actions": 204,
-    "scientific_evals": 611,
-    "consolidations": 102,
-    "cycles": 306,
+    "tournaments": 313,
+    "matches": 8764,
+    "proactive_actions": 209,
+    "scientific_evals": 626,
+    "consolidations": 105,
+    "cycles": 313,
     "champions": [
       {
-        "agent": "AUTOPILOT",
-        "elo": 1093.387351063147
+        "agent": "MAESTRO",
+        "elo": 1023.5954963378324
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1099.1227587126375
+        "agent": "SENTINEL",
+        "elo": 1072.2226838029924
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1083.2849932697682
+        "agent": "PIA",
+        "elo": 1099.0053571049368
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1127.3217324350219
+        "agent": "PIA",
+        "elo": 1082.2426303078764
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1098.3676236943138
+        "agent": "ORÁCULO",
+        "elo": 1082.3513125451677
       }
     ]
   },
-  "all_out_status._updated": 1778519450.667313,
-  "cultura": {
-    "valores": 8,
-    "rituales": 5,
-    "historia": 5,
-    "memes_vivos": 18,
-    "campeon": "MEMORIA"
-  },
-  "cultura._updated": 1778519456.9334788
+  "all_out_status._updated": 1778519900.6802447
 }
