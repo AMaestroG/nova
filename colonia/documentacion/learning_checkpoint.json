@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 85,
+      "attempts": 86,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511034.9519234,
+      "last_attempt": 1778511527.8089058,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 81,
+      "attempts": 82,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510897.072815,
+      "last_attempt": 1778511591.0298448,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 78,
+      "attempts": 79,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510962.9713764,
+      "last_attempt": 1778511661.2466671,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 75,
+      "attempts": 76,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511099.9121006,
+      "last_attempt": 1778511732.9958823,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 70,
+      "attempts": 71,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511126.2617362,
+      "last_attempt": 1778511791.6733046,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 913,
+    "total_processed": 918,
     "total_extracted": 0,
-    "total_failed": 913,
+    "total_failed": 918,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778511493.0222952
+  "saved_at": 1778511791.6734018
 }
