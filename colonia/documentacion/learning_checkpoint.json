@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 105,
+      "attempts": 106,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778520574.0594497,
+      "last_attempt": 1778521096.101834,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 99,
+      "attempts": 100,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778520611.6010382,
+      "last_attempt": 1778521130.9490836,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 91,
+      "attempts": 92,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778520676.859485,
+      "last_attempt": 1778521162.9313474,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1099,
+    "total_processed": 1102,
     "total_extracted": 0,
-    "total_failed": 1099,
+    "total_failed": 1102,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778521052.707837
+  "saved_at": 1778521162.9314282
 }
