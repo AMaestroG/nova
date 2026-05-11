@@ -17,11 +17,13 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status",
-      "autonomous"
+      "custom_instruction_redaccion",
+      "custom_instruction_investigacion",
+      "custom_instruction_creativo",
+      "voice_templates"
     ],
-    "last_saved": 1778521168.342407,
-    "save_count": 80,
+    "last_saved": 1778521213.3114817,
+    "save_count": 4,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -189,52 +191,27 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 87,
-    "actions": 87,
-    "tournaments": 8,
-    "consolidations": 5,
-    "last_cycle": 1778501073.1938603
+    "cycles": 1200,
+    "actions": 1200,
+    "tournaments": 120,
+    "consolidations": 80,
+    "last_cycle": 1778521197.7861524
   },
-  "night_shift._updated": 1778501073.193868,
-  "all_out_status": {
-    "tournaments": 177,
-    "matches": 4956,
-    "proactive_actions": 118,
-    "scientific_evals": 354,
-    "consolidations": 59,
-    "cycles": 176,
-    "champions": [
-      {
-        "agent": "MEMORIA",
-        "elo": 1099.9245160440148
-      },
-      {
-        "agent": "ORÁCULO",
-        "elo": 1055.1957596561026
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1092.935893155644
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1103.812512472532
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1085.0916185165252
-      }
-    ]
+  "night_shift._updated": 1778521197.786163,
+  "custom_instruction_redaccion": {
+    "template": "Reescribe de forma concisa y rigurosa. Sin explicaciones adicionales."
   },
-  "all_out_status._updated": 1778511667.2345495,
-  "autonomous": {
-    "searches": 64,
-    "indexed": 32,
-    "distilled": 0,
-    "implemented": 16,
-    "tournaments": 32,
-    "cycles": 79,
-    "started": 1778511667.9147854
+  "custom_instruction_redaccion._updated": 1778521213.2933502,
+  "custom_instruction_investigacion": {
+    "template": "Investiga y proporciona fuentes. Sé escéptico. Cita evidencias."
   },
-  "autonomous._updated": 1778521168.342402
+  "custom_instruction_investigacion._updated": 1778521213.2938173,
+  "custom_instruction_creativo": {
+    "template": "Piensa lateralmente. Rompe patrones. Proporciona 3 alternativas no obvias."
+  },
+  "custom_instruction_creativo._updated": 1778521213.2941701,
+  "voice_templates": {
+    "templates": 3
+  },
+  "voice_templates._updated": 1778521213.3114786
 }
