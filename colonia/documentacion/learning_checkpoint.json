@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 87,
+      "attempts": 88,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509733.5165079,
+      "last_attempt": 1778510210.4364552,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 86,
+      "attempts": 87,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509600.834617,
+      "last_attempt": 1778510273.4713252,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 84,
+      "attempts": 85,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509624.5593185,
+      "last_attempt": 1778510334.336294,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 79,
+      "attempts": 80,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509654.9426222,
+      "last_attempt": 1778510375.401213,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -313,9 +313,9 @@
       "channel": "code4AI",
       "title": "Self-Repair with AI Robotics",
       "status": "failed",
-      "attempts": 1,
+      "attempts": 2,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778466848.0896275,
+      "last_attempt": 1778510135.2899325,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 887,
+    "total_processed": 892,
     "total_extracted": 0,
-    "total_failed": 887,
+    "total_failed": 892,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778510070.0810964
+  "saved_at": 1778510375.4012878
 }
