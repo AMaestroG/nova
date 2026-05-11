@@ -17,10 +17,11 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status"
+      "all_out_status",
+      "propagar"
     ],
-    "last_saved": 1778520350.693281,
-    "save_count": 641,
+    "last_saved": 1778520501.2940907,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -196,21 +197,13 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 321,
-    "matches": 8988,
-    "proactive_actions": 214,
-    "scientific_evals": 641,
-    "consolidations": 107,
-    "cycles": 321,
+    "tournaments": 323,
+    "matches": 9044,
+    "proactive_actions": 216,
+    "scientific_evals": 646,
+    "consolidations": 108,
+    "cycles": 323,
     "champions": [
-      {
-        "agent": "MEMORIA",
-        "elo": 1116.4504752318935
-      },
-      {
-        "agent": "MEMORIA",
-        "elo": 1069.4958530557287
-      },
       {
         "agent": "EXPLORADOR",
         "elo": 1072.675589403678
@@ -222,8 +215,22 @@
       {
         "agent": "EXPLORADOR",
         "elo": 1043.4590430077108
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1069.0483774254242
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1064.4073441938272
       }
     ]
   },
-  "all_out_status._updated": 1778520350.6932764
+  "all_out_status._updated": 1778520500.6974914,
+  "propagar": {
+    "champion": "EXPLORADOR",
+    "hive_cycles": 35,
+    "memes": 10
+  },
+  "propagar._updated": 1778520501.2940881
 }
