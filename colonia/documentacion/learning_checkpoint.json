@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 114,
+      "attempts": 115,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523321.071529,
+      "last_attempt": 1778523874.656339,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 112,
+      "attempts": 113,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523145.4988363,
+      "last_attempt": 1778523580.9357855,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 110,
+      "attempts": 111,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523185.2908287,
+      "last_attempt": 1778523616.2059023,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 109,
+      "attempts": 110,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523382.3527596,
+      "last_attempt": 1778523937.553992,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 104,
+      "attempts": 105,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523244.780266,
+      "last_attempt": 1778524013.2243211,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 101,
+      "attempts": 102,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523407.1130826,
+      "last_attempt": 1778524081.4579659,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 95,
+      "attempts": 96,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523266.9562247,
+      "last_attempt": 1778524144.116696,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 61,
+      "attempts": 62,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523028.9762537,
+      "last_attempt": 1778523682.5392792,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 47,
+      "attempts": 48,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778523089.3331394,
+      "last_attempt": 1778523730.8402033,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -258,9 +258,9 @@
       "channel": "code4AI",
       "title": "AI Harness Engineering - Future of AI",
       "status": "failed",
-      "attempts": 19,
+      "attempts": 20,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778514923.418139,
+      "last_attempt": 1778523803.0587404,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1148,
+    "total_processed": 1158,
     "total_extracted": 0,
-    "total_failed": 1148,
+    "total_failed": 1158,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778523510.9941797
+  "saved_at": 1778524144.1169515
 }
