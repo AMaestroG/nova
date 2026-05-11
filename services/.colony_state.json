@@ -18,10 +18,10 @@
       "self_improvement_game",
       "night_shift",
       "all_out_status",
-      "autonomous"
+      "cultura"
     ],
-    "last_saved": 1778519364.553704,
-    "save_count": 65,
+    "last_saved": 1778519456.9334812,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -197,44 +197,42 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 177,
-    "matches": 4956,
-    "proactive_actions": 118,
-    "scientific_evals": 354,
-    "consolidations": 59,
-    "cycles": 176,
+    "tournaments": 306,
+    "matches": 8568,
+    "proactive_actions": 204,
+    "scientific_evals": 611,
+    "consolidations": 102,
+    "cycles": 306,
     "champions": [
       {
-        "agent": "MEMORIA",
-        "elo": 1099.9245160440148
-      },
-      {
-        "agent": "ORÁCULO",
-        "elo": 1055.1957596561026
-      },
-      {
         "agent": "AUTOPILOT",
-        "elo": 1092.935893155644
+        "elo": 1093.387351063147
       },
       {
-        "agent": "AUTOPILOT",
-        "elo": 1103.812512472532
+        "agent": "EXPLORADOR",
+        "elo": 1099.1227587126375
       },
       {
-        "agent": "AUTOPILOT",
-        "elo": 1085.0916185165252
+        "agent": "EXPLORADOR",
+        "elo": 1083.2849932697682
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1127.3217324350219
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1098.3676236943138
       }
     ]
   },
-  "all_out_status._updated": 1778511667.2345495,
-  "autonomous": {
-    "searches": 52,
-    "indexed": 26,
-    "distilled": 0,
-    "implemented": 13,
-    "tournaments": 26,
-    "cycles": 64,
-    "started": 1778511667.9147854
+  "all_out_status._updated": 1778519450.667313,
+  "cultura": {
+    "valores": 8,
+    "rituales": 5,
+    "historia": 5,
+    "memes_vivos": 18,
+    "campeon": "MEMORIA"
   },
-  "autonomous._updated": 1778519364.5536993
+  "cultura._updated": 1778519456.9334788
 }

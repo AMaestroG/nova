@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 81,
+      "attempts": 82,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778518854.161744,
+      "last_attempt": 1778519416.7119372,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1066,
+    "total_processed": 1067,
     "total_extracted": 0,
-    "total_failed": 1066,
+    "total_failed": 1067,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778519363.909775
+  "saved_at": 1778519416.7120187
 }
