@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 90,
+      "attempts": 91,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511253.0276132,
+      "last_attempt": 1778511885.663365,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 89,
+      "attempts": 90,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511303.3240082,
+      "last_attempt": 1778511903.6623766,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 87,
+      "attempts": 88,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511373.0690975,
+      "last_attempt": 1778511964.811825,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 65,
+      "attempts": 66,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511156.7393792,
+      "last_attempt": 1778512025.813254,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 918,
+    "total_processed": 922,
     "total_extracted": 0,
-    "total_failed": 918,
+    "total_failed": 922,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778511791.6734018
+  "saved_at": 1778512025.813332
 }
