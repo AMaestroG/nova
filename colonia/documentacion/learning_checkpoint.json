@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 89,
+      "attempts": 90,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510782.8594391,
+      "last_attempt": 1778511253.0276132,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 88,
+      "attempts": 89,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510807.1675777,
+      "last_attempt": 1778511303.3240082,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 86,
+      "attempts": 87,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510831.9971812,
+      "last_attempt": 1778511373.0690975,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 908,
+    "total_processed": 911,
     "total_extracted": 0,
-    "total_failed": 908,
+    "total_failed": 911,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778511178.405394
+  "saved_at": 1778511373.069174
 }
