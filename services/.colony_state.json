@@ -17,13 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "custom_instruction_redaccion",
-      "custom_instruction_investigacion",
-      "custom_instruction_creativo",
-      "voice_templates"
+      "puertas_abiertas"
     ],
-    "last_saved": 1778521213.3114817,
-    "save_count": 4,
+    "last_saved": 1778521483.8375168,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -191,27 +188,19 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 1200,
-    "actions": 1200,
-    "tournaments": 120,
-    "consolidations": 80,
-    "last_cycle": 1778521197.7861524
+    "cycles": 2883,
+    "actions": 2883,
+    "tournaments": 288,
+    "consolidations": 192,
+    "last_cycle": 1778521483.7430816
   },
-  "night_shift._updated": 1778521197.786163,
-  "custom_instruction_redaccion": {
-    "template": "Reescribe de forma concisa y rigurosa. Sin explicaciones adicionales."
+  "night_shift._updated": 1778521483.7430902,
+  "puertas_abiertas": {
+    "champion": "PIA",
+    "entropy_phase": "balance",
+    "temperature": 0.3,
+    "hive_cycles": 45,
+    "memes": 10
   },
-  "custom_instruction_redaccion._updated": 1778521213.2933502,
-  "custom_instruction_investigacion": {
-    "template": "Investiga y proporciona fuentes. Sé escéptico. Cita evidencias."
-  },
-  "custom_instruction_investigacion._updated": 1778521213.2938173,
-  "custom_instruction_creativo": {
-    "template": "Piensa lateralmente. Rompe patrones. Proporciona 3 alternativas no obvias."
-  },
-  "custom_instruction_creativo._updated": 1778521213.2941701,
-  "voice_templates": {
-    "templates": 3
-  },
-  "voice_templates._updated": 1778521213.3114786
+  "puertas_abiertas._updated": 1778521483.8375134
 }
