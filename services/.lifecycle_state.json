@@ -1,6 +1,6 @@
 {
-  "total_tasks_created": 331,
-  "total_tasks_completed": 280,
+  "total_tasks_created": 341,
+  "total_tasks_completed": 289,
   "total_tasks_failed": 0,
   "pending_count": 1,
   "active_count": 0,
@@ -11,7 +11,11 @@
     "MAESTRO",
     "SENTINEL",
     "OR\u00c1CULO",
-    "AUTOPILOT"
+    "AUTOPILOT",
+    "EXPLORADOR",
+    "YOUTUBE",
+    "AURA",
+    "NYX"
   ],
-  "last_updated": 1778520926.7437465
+  "last_updated": 1778520996.6198769
 }
