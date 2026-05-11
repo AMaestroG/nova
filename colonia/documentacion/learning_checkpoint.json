@@ -82,9 +82,9 @@
       "channel": "code4AI",
       "title": "MEMORY.md (C-engineering) is not real AI MEMORY - Different Math!",
       "status": "failed",
-      "attempts": 106,
+      "attempts": 107,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778521096.101834,
+      "last_attempt": 1778521528.6826017,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 100,
+      "attempts": 101,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778521130.9490836,
+      "last_attempt": 1778521562.9294484,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1109,
+    "total_processed": 1111,
     "total_extracted": 0,
-    "total_failed": 1109,
+    "total_failed": 1111,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778521468.9190023
+  "saved_at": 1778521562.9295268
 }

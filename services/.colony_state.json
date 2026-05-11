@@ -16,12 +16,10 @@
       "colony_cycle",
       "spatternet",
       "self_improvement_game",
-      "night_shift",
-      "all_out_status",
-      "auto"
+      "night_shift"
     ],
-    "last_saved": 1778521524.5845497,
-    "save_count": 1,
+    "last_saved": 1778521588.7524502,
+    "save_count": 962,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -189,46 +187,11 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 87,
-    "actions": 87,
-    "tournaments": 8,
-    "consolidations": 5,
-    "last_cycle": 1778501073.1938603
+    "cycles": 2889,
+    "actions": 2889,
+    "tournaments": 288,
+    "consolidations": 192,
+    "last_cycle": 1778521588.7524397
   },
-  "night_shift._updated": 1778501073.193868,
-  "all_out_status": {
-    "tournaments": 340,
-    "matches": 9520,
-    "proactive_actions": 227,
-    "scientific_evals": 680,
-    "consolidations": 114,
-    "cycles": 340,
-    "champions": [
-      {
-        "agent": "MAESTRO",
-        "elo": 1062.151253125029
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1113.6093214122216
-      },
-      {
-        "agent": "MAESTRO",
-        "elo": 1090.5469173114523
-      },
-      {
-        "agent": "MAESTRO",
-        "elo": 1108.9441339129285
-      },
-      {
-        "agent": "MAESTRO",
-        "elo": 1091.974773260844
-      }
-    ]
-  },
-  "all_out_status._updated": 1778521520.7265663,
-  "auto": {
-    "champion": "PIA"
-  },
-  "auto._updated": 1778521524.584544
+  "night_shift._updated": 1778521588.752448
 }
