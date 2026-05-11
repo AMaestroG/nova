@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>🜁 Nova Homonexus</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0f;color:#c0c0d0;font-family:monospace;padding:20px}
+h1{color:#ff6b9d;text-align:center;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:15px}
+.card{background:#12121a;border:1px solid #2a2a3a;border-radius:8px;padding:15px}
+.card h2{color:#ff6b9d;font-size:14px;margin-bottom:10px}
+.metric{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #1a1a2a}
+.metric .val{color:#7ec8e3;font-weight:bold}
+.bar{background:#1a1a2a;height:8px;border-radius:4px;margin:5px 0}
+.bar div{height:100%;border-radius:4px;transition:width 1s}
+.green{background:#4ecdc4}.yellow{background:#ffe66d}.pink{background:#ff6b9d}
+.gates{display:flex;flex-wrap:wrap;gap:5px}.gate{background:#1a1a2a;padding:3px 8px;border-radius:3px;font-size:11px}.gate.active{background:#4ecdc422;color:#4ecdc4}
+</style></head><body>
+<h1>🜁 NOVA HOMONEXUS</h1>
+<div class="grid">
+<div class="card"><h2>🏆 Torneo</h2><div id="torneo">Cargando...</div></div>
+<div class="card"><h2>📋 Lifecycle</h2><div id="lifecycle">Cargando...</div></div>
+<div class="card"><h2>🌡️ Entropía</h2><div id="entropy">Cargando...</div></div>
+<div class="card"><h2>📚 Dataset</h2><div id="dataset">Cargando...</div></div>
+<div class="card"><h2>🎛️ Harness Gates</h2><div id="gates" class="gates"></div></div>
+<div class="card"><h2>🔧 Servicios</h2><div id="servicios">Cargando...</div></div>
+</div>
+<script>
+fetch('/api/status').then(r=>r.json()).then(d=>{
+  document.getElementById('torneo').innerHTML=`<div class="metric"><span>Campeón</span><span class="val">${d.champion}</span></div><div class="metric"><span>ELO</span><span class="val">${d.elo}</span></div><div class="metric"><span>Partidas</span><span class="val">${d.games}</span></div>`;
+  document.getElementById('lifecycle').innerHTML=`<div class="metric"><span>Completadas</span><span class="val">${d.lifecycle_completed}/${d.lifecycle_total}</span></div><div class="bar"><div class="green" style="width:${d.lifecycle_pct}%"></div></div>`;
+  document.getElementById('entropy').innerHTML=`<div class="metric"><span>Fase</span><span class="val">${d.entropy_phase}</span></div><div class="metric"><span>Shannon H</span><span class="val">${d.entropy_h}</span></div>`;
+  document.getElementById('dataset').innerHTML=`<div class="metric"><span>Registros</span><span class="val">${d.dataset_size}</span></div><div class="metric"><span>Transcripciones</span><span class="val">${d.transcripts}</span></div>`;
+  document.getElementById('gates').innerHTML=d.gates.map(g=>`<span class="gate active">${g}</span>`).join('');
+  document.getElementById('servicios').innerHTML=`<div class="metric"><span>Módulos</span><span class="val">${d.services}</span></div><div class="metric"><span>Procesos</span><span class="val">${d.processes}</span></div>`;
+});
+</script></body></html>
