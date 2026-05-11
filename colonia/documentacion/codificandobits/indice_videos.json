@@ -1,0 +1,906 @@
+{
+  "canal": "@codificandobits",
+  "total_videos": 100,
+  "videos": [
+    {
+      "id": "xkUaoOEnHf0",
+      "titulo": "Bag of Words: de texto a números | Procesamiento del Lenguaje Natural",
+      "duracion_s": 627.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=xkUaoOEnHf0",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "eRsiJ9eU1Tk",
+      "titulo": "¿Qué es el IMAGE AUGMENTATION (o aumento de imágenes)? | Visión por Computador",
+      "duracion_s": 663.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=eRsiJ9eU1Tk",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "pP1GaTZfFO8",
+      "titulo": "Pronósticos de Series de Tiempo: modelos AUTO-REGRESIVOS (AR)",
+      "duracion_s": 472.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=pP1GaTZfFO8",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "sEh39tFaoFQ",
+      "titulo": "¿Por qué mi Red Neuronal NO APRENDE?: las curvas de pérdida",
+      "duracion_s": 1152.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=sEh39tFaoFQ",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "AuMCVLEXZL0",
+      "titulo": "¿Qué es el VALOR P? | Fundamentos de Ciencia de Datos",
+      "duracion_s": 496.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=AuMCVLEXZL0",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "29c-pHznRYE",
+      "titulo": "¿Qué es la ATENCIÓN en las Redes Transformer?",
+      "duracion_s": 1823.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=29c-pHznRYE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "Jiv55wEsoPU",
+      "titulo": "IMPORTANCIA DE LAS CARACTERÍSTICAS (feature importances) | Machine Learning",
+      "duracion_s": 667.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=Jiv55wEsoPU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "y7Bx7x9GPFU",
+      "titulo": "¿Qué son los GRÁFICOS DE RADAR? | Análisis de datos multivariado",
+      "duracion_s": 745.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=y7Bx7x9GPFU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "idfBlOKVeBo",
+      "titulo": "¿Qué son y para qué sirven las EXPRESIONES REGULARES?",
+      "duracion_s": 1302.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=idfBlOKVeBo",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "TIrb1p_Slz4",
+      "titulo": "STABLE DIFFUSION ¡Explicado!",
+      "duracion_s": 1298.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=TIrb1p_Slz4",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "JsuaQJuY8Og",
+      "titulo": "Suavizado Exponencial Simple ¡explicado! - Pronósticos de Series de Tiempo",
+      "duracion_s": 952.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=JsuaQJuY8Og",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "69pAY917xyc",
+      "titulo": "¿Cómo APRENDEN las Redes Neuronales?",
+      "duracion_s": 1405.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=69pAY917xyc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "We_CjIqTZ1A",
+      "titulo": "Las PRUEBAS DE HIPÓTESIS ¡explicadas!",
+      "duracion_s": 719.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=We_CjIqTZ1A",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "l_fdkLQ8s2s",
+      "titulo": "¿Qué es la BÚSQUEDA SEMÁNTICA?",
+      "duracion_s": 1172.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=l_fdkLQ8s2s",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "A5sfobIi4Ag",
+      "titulo": "El CLUSTERING en el Machine Learning ¡EXPLICADO!",
+      "duracion_s": 807.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=A5sfobIi4Ag",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "vMfxw9aghAo",
+      "titulo": "Tutorial: NORMALIZACIÓN de texto con TF-IDF",
+      "duracion_s": 1981.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=vMfxw9aghAo",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "z4KLvkwmaDg",
+      "titulo": "Tutorial: ¿cómo comparar gráficamente variables NUMÉRICAS Y CATEGÓRICAS en Python?",
+      "duracion_s": 1550.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=z4KLvkwmaDg",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "Y0SIM3tzVSE",
+      "titulo": "Tutorial: GRÁFICOS DE CAJA (\"box plots\") para visualizar datos en Python",
+      "duracion_s": 1521.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=Y0SIM3tzVSE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "ScPXc3ibHFU",
+      "titulo": "TF-IDF ¡EXPLICADO!: pre-procesamiento de texto",
+      "duracion_s": 1292.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=ScPXc3ibHFU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "IW9C5ClCOFU",
+      "titulo": "Tutorial: ¿cómo AGRUPAR datos en Pandas? | Análisis de datos con Pandas",
+      "duracion_s": 1255.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=IW9C5ClCOFU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "duYGJQ2pUCw",
+      "titulo": "Tutorial: comparando gráficamente variables CATEGÓRICAS en Python | Visualización de datos",
+      "duracion_s": 1242.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=duYGJQ2pUCw",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "VYt_Te2DU_g",
+      "titulo": "Tutorial: ¿cómo COMBINAR  tablas en Pandas?",
+      "duracion_s": 1302.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=VYt_Te2DU_g",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "fmyR4479g9o",
+      "titulo": "Tutorial: ¿cómo comparar gráficamente variables numéricas en Python? | Visualización de datos",
+      "duracion_s": 1551.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=fmyR4479g9o",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "UfLJWFG816Y",
+      "titulo": "¿Qué es una Red Convolucional 1D? - Redes Convolucionales 1D y Series de Tiempo (parte 2)",
+      "duracion_s": 1197.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=UfLJWFG816Y",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "XDG0r7Epn0A",
+      "titulo": "Tutorial: CLASIFICACIÓN BINARIA con Regresión Logística en Scikit-Learn",
+      "duracion_s": 2081.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=XDG0r7Epn0A",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "6bKdKTIf09Y",
+      "titulo": "Tutorial: ¿Cómo funcionan los TOKENS en los Grandes Modelos de Lenguaje?",
+      "duracion_s": 2082.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=6bKdKTIf09Y",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "fpkNPhLEdj4",
+      "titulo": "¿Cómo codificar de manera eficiente variables categóricas? | Tutorial PyTorch Embeddings",
+      "duracion_s": 2123.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=fpkNPhLEdj4",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "6RS8uAXbkLc",
+      "titulo": "BASURA QUE ENTRA, BASURA QUE SALE: un concepto fundamental en el Machine Learning",
+      "duracion_s": 948.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=6RS8uAXbkLc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "_PacKF5iD20",
+      "titulo": "¿Cómo detectar objetos con REDES TRANSFORMER? | Detection Transformer ¡EXPLICADO!",
+      "duracion_s": 1793.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=_PacKF5iD20",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "9DLdyRO_EQA",
+      "titulo": "¿Qué son las FUNCIONES VALOR? (Aprendizaje por Refuerzo)",
+      "duracion_s": 1540.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=9DLdyRO_EQA",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "KTzeMkN4yqc",
+      "titulo": "La CONVOLUCIÓN 1D - Redes Convolucionales 1D y Series de Tiempo (parte 1)",
+      "duracion_s": 1367.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=KTzeMkN4yqc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "XJYwIN5XzQQ",
+      "titulo": "Tutorial: MICE para imputación de datos numéricos (manejo de datos faltantes)",
+      "duracion_s": 1730.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=XJYwIN5XzQQ",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "QsUB3SGZLno",
+      "titulo": "Tutorial: ¿Cómo usar LLMs pre-entrenados desde Hugging Face?",
+      "duracion_s": 2409.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=QsUB3SGZLno",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "BbvBaGiZR-I",
+      "titulo": "Tutorial: ¿Cómo ALMACENAR y REUTILIZAR modelos en PyTorch?",
+      "duracion_s": 1671.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=BbvBaGiZR-I",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "pezeHzJwYvc",
+      "titulo": "Los TIPOS DE DATOS en Ciencia de Datos",
+      "duracion_s": 1112.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=pezeHzJwYvc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "_ekUN7A1EmQ",
+      "titulo": "Tutorial: CONTEO DE OBJETOS en imágenes usando YOLO",
+      "duracion_s": 2000.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=_ekUN7A1EmQ",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "dR4P4tqpHgA",
+      "titulo": "La POLÍTICA en el Aprendizaje por Refuerzo",
+      "duracion_s": 1118.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=dR4P4tqpHgA",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "-D3X3-YFrRE",
+      "titulo": "Tutorial: ¿Cómo medir la calidad de los PRONÓSTICOS de Series de Tiempo? (RMSE, MAE, MAPE)",
+      "duracion_s": 2025.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=-D3X3-YFrRE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "4Ez4mbhIk_I",
+      "titulo": "Tutorial: ¡SEABORN DESDE CERO!",
+      "duracion_s": 2308.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=4Ez4mbhIk_I",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "QyAz3wr9i-M",
+      "titulo": "GRAFOS DE CONOCIMIENTO + Grandes Modelos de Lenguaje",
+      "duracion_s": 1175.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=QyAz3wr9i-M",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "qLugt2MfKQw",
+      "titulo": "LOTES y ÉPOCAS al entrenar una Red Neuronal",
+      "duracion_s": 1267.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=qLugt2MfKQw",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "kK-YVhZD_PM",
+      "titulo": "El BOOTSTRAPPING ¡explicado!",
+      "duracion_s": 1162.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=kK-YVhZD_PM",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "dV_LlKz5p54",
+      "titulo": "DETECCIÓN DE ANOMALÍAS en imágenes industriales (parte 5): localización de las anomalías",
+      "duracion_s": 1773.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=dV_LlKz5p54",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "nwvnwz8lr0M",
+      "titulo": "El APRENDIZAJE POR REFUERZO vs. otros tipos de aprendizaje en el Machine Learning",
+      "duracion_s": 1232.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=nwvnwz8lr0M",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "MXtU_653Ags",
+      "titulo": "Tutorial AMAZON CHRONOS: Series de Tiempo + Grandes Modelos de Lenguaje",
+      "duracion_s": 2860.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=MXtU_653Ags",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "1BcWOOI-W_g",
+      "titulo": "Tutorial: métodos básicos de DETECCIÓN DE OUTLIERS",
+      "duracion_s": 1782.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=1BcWOOI-W_g",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "tVfIdK4TCSo",
+      "titulo": "Los Grandes Modelos de Lenguaje MULTIMODALES",
+      "duracion_s": 1452.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=tVfIdK4TCSo",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "pCy4yPzcCqs",
+      "titulo": "El PERCEPTRÓN ¡explicado! (demo interactivo)",
+      "duracion_s": 1396.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=pCy4yPzcCqs",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "z5M-uqE2zAI",
+      "titulo": "La DISTRIBUCIÓN GAUSSIANA (o Normal) ¡EXPLICADA!",
+      "duracion_s": 1078.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=z5M-uqE2zAI",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "lbAQD6olTH8",
+      "titulo": "DETECCIÓN DE ANOMALÍAS en imágenes industriales (parte 4): transferencia de aprendizaje",
+      "duracion_s": 4040.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=lbAQD6olTH8",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "d9aceVTiLDs",
+      "titulo": "DETECCIÓN DE ANOMALÍAS en imágenes industriales (parte 3): detección de anomalías",
+      "duracion_s": 1859.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=d9aceVTiLDs",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "6IHR17KaDM4",
+      "titulo": "DETECCIÓN DE ANOMALÍAS en imágenes industriales (parte 2): el autoencoder convolucional",
+      "duracion_s": 1524.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=6IHR17KaDM4",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "SrPAfZUEQ6Q",
+      "titulo": "DETECCIÓN DE ANOMALÍAS en imágenes industriales (parte 1): el problema a resolver y los datos",
+      "duracion_s": 1780.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=SrPAfZUEQ6Q",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "29ZGRMlpzu8",
+      "titulo": "Tutorial: ¡HUGGING FACE DESDE CERO!",
+      "duracion_s": 1535.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=29ZGRMlpzu8",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "cD7ErDI-424",
+      "titulo": "¿Qué es una DISTRIBUCIÓN DE PROBABILIDAD? | Fundamentos de Ciencia de Datos",
+      "duracion_s": 1004.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=cD7ErDI-424",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "YCFuRuP_1ik",
+      "titulo": "Tutorial: PRONÓSTICOS SOBRE SERIES DE TIEMPO con Darts y Redes Neuronales",
+      "duracion_s": 3123.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=YCFuRuP_1ik",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "15HP_HeTXAE",
+      "titulo": "La DISCRETIZACIÓN explicada | Fundamentos de Machine Learning",
+      "duracion_s": 1713.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=15HP_HeTXAE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "CoaSZLHxVL8",
+      "titulo": "¡La IA GENERATIVA explicada!",
+      "duracion_s": 1019.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=CoaSZLHxVL8",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "gIskU_V1z0I",
+      "titulo": "Tutorial: ¿cómo leer datasets de imágenes con PyTorch?",
+      "duracion_s": 2959.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=gIskU_V1z0I",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "NweFOol6e_s",
+      "titulo": "¿Por qué se usa la ENTROPÍA CRUZADA en las REDES NEURONALES?",
+      "duracion_s": 1512.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=NweFOol6e_s",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "-LRC_P56fIw",
+      "titulo": "CORRELACIÓN = CAUSALIDAD: un error muy común en Ciencia de Datos",
+      "duracion_s": 929.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=-LRC_P56fIw",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "X-H0oFzTUDM",
+      "titulo": "La MATRIZ DE CORRELACIÓN ¡EXPLICADA!",
+      "duracion_s": 1293.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=X-H0oFzTUDM",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "4tkA8N6U0ag",
+      "titulo": "Los INTERVALOS DE CONFIANZA ¡EXPLICADOS!",
+      "duracion_s": 1858.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=4tkA8N6U0ag",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "dZ9Vm7jqnTk",
+      "titulo": "PROBABILIDAD Y ESTADÍSTICA en la Ciencia de Datos",
+      "duracion_s": 1478.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=dZ9Vm7jqnTk",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "F5IBJfwmjYU",
+      "titulo": "TIPOS DE ANÁLISIS en Ciencia de Datos",
+      "duracion_s": 909.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=F5IBJfwmjYU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "AkY3qoqR-QU",
+      "titulo": "DETECCIÓN DE VALORES EXTREMOS (outliers) con el Método de Tukey",
+      "duracion_s": 778.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=AkY3qoqR-QU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "Dn9WTzi6YVA",
+      "titulo": "¡La CORRELACIÓN EXPLICADA! (Coeficiente de correlación de Pearson)",
+      "duracion_s": 1825.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=Dn9WTzi6YVA",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "f09ouswuJO0",
+      "titulo": "EL RANGO INTERCUARTILES !EXPLICADO!",
+      "duracion_s": 989.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=f09ouswuJO0",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "vBLlMPvd_HM",
+      "titulo": "EL MUESTREO ¡EXPLICADO!",
+      "duracion_s": 967.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=vBLlMPvd_HM",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "5n3xFoG3mZQ",
+      "titulo": "Tutorial: etiquetado de imágenes con LABEL STUDIO",
+      "duracion_s": 1973.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=5n3xFoG3mZQ",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "u8z3CLeyF7I",
+      "titulo": "¡La DESTILACIÓN DE CONOCIMIENTO explicada! | ¿Cómo \"comprimir\" un modelo de Deep Learning?",
+      "duracion_s": 1688.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=u8z3CLeyF7I",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "3vtS2qc4t6o",
+      "titulo": "EL TEOREMA DE BAYES !EXPLICADO!",
+      "duracion_s": 1347.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=3vtS2qc4t6o",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "bWcleVo346o",
+      "titulo": "Tutorial: ¡(Facebook) PROPHET DESDE CERO! | Pronósticos sobre Series de Tiempo",
+      "duracion_s": 2549.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=bWcleVo346o",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "fTmgw87x9Tc",
+      "titulo": "Tutorial: MATRIZ DE CONFUSIÓN y MÉTRICAS DE CLASIFICACIÓN con Scikit-Learn",
+      "duracion_s": 1679.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=fTmgw87x9Tc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "xutea3wWD9E",
+      "titulo": "BERTopic: MODELADO DE TÓPICOS con Grandes Modelos de Lenguaje",
+      "duracion_s": 1119.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=xutea3wWD9E",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "cbb6Z2VOU9Q",
+      "titulo": "Tutorial: AFINACIÓN DEL VISION TRANSFORMER",
+      "duracion_s": 3021.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=cbb6Z2VOU9Q",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "cD-isG3DdsE",
+      "titulo": "SISTEMAS DE RECOMENDACIÓN !EXPLICADOS!",
+      "duracion_s": 1255.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=cD-isG3DdsE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "rg7Lrf099Lc",
+      "titulo": "Tutorial: ¡DARTS DESDE CERO! | Procesamiento, análisis y pronósticos sobre Series de Tiempo",
+      "duracion_s": 2571.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=rg7Lrf099Lc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "K0qBHOgVR4E",
+      "titulo": "Tutorial: CLASIFICACIÓN CON BOSQUES ALEATORIOS en Python",
+      "duracion_s": 2788.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=K0qBHOgVR4E",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "blmedTL56-E",
+      "titulo": "CLUSTERING (o agrupación) DE TEXTOS con Grandes Modelos de Lenguaje",
+      "duracion_s": 993.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=blmedTL56-E",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "iPQRqNEJiz0",
+      "titulo": "Tutorial: IMAGE CLASSIFICATION with VISION TRANSFORMER",
+      "duracion_s": 1623.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=iPQRqNEJiz0",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "UAXfW5Z0klY",
+      "titulo": "HOW MUCH DATA do I need to train a NEURAL NETWORK?",
+      "duracion_s": 1524.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=UAXfW5Z0klY",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "6YE1hpz2D_4",
+      "titulo": "SEASONAL GRAPHICS for Time Series",
+      "duracion_s": 570.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=6YE1hpz2D_4",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "7ZAejxob2cg",
+      "titulo": "Tutorial: REGRESSION TREES in Python",
+      "duracion_s": 3306.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=7ZAejxob2cg",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "Aj1AKWPgsRE",
+      "titulo": "TEXT CLASSIFICATION with Large Language Models",
+      "duracion_s": 1664.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=Aj1AKWPgsRE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "1ZoSMiaLlk8",
+      "titulo": "Tutorial: POSE DETECTION with YOLO11",
+      "duracion_s": 2089.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=1ZoSMiaLlk8",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "VzVch8oqtUE",
+      "titulo": "La SIMILITUD DEL COSENO ¡explicada!",
+      "duracion_s": 1124.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=VzVch8oqtUE",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "wb_mzPQfOzo",
+      "titulo": "Tutorial: Useful techniques for TIME SERIES PRE-PROCESSING",
+      "duracion_s": 2216.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=wb_mzPQfOzo",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "hcbVLNZ2gAQ",
+      "titulo": "Tutorial: AFINACIÓN DE HIPER-PARÁMETROS en Scikit-Learn",
+      "duracion_s": 3045.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=hcbVLNZ2gAQ",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "_wwrZRYneS4",
+      "titulo": "Tutorial: SEGMENTACIÓN de imágenes con YOLO11",
+      "duracion_s": 1861.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=_wwrZRYneS4",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "YylBAW-RXoc",
+      "titulo": "AGENTES DE IA: ¿qué son y cómo funcionan? | Grandes Modelos de Lenguaje",
+      "duracion_s": 1281.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=YylBAW-RXoc",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "lHkG0uZZ330",
+      "titulo": "Tutorial: los CALLBACKS de Keras",
+      "duracion_s": 1516.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=lHkG0uZZ330",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "qaetvFaYOWM",
+      "titulo": "Tutorial: ¡PANDAS DESDE CERO!",
+      "duracion_s": 2851.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=qaetvFaYOWM",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "XK9gaMx76wU",
+      "titulo": "Tutorial: ÁRBOLES DE CLASIFICACIÓN en Python",
+      "duracion_s": 2788.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=XK9gaMx76wU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "esQ4LMVdbaA",
+      "titulo": "RAG ¡EXPLICADO! | Grandes Modelos de Lenguaje",
+      "duracion_s": 883.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=esQ4LMVdbaA",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "LivJ-lzM-bM",
+      "titulo": "Tutorial: detección de objetos con YOLO 11",
+      "duracion_s": 1933.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=LivJ-lzM-bM",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "czEeV1kbjXo",
+      "titulo": "Tutorial: ¿Cómo almacenar y recuperar el progreso del entrenamiento? | Keras \"checkpoints\"",
+      "duracion_s": 1539.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=czEeV1kbjXo",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "02ZU3j_SFpU",
+      "titulo": "Tutorial: visualización de SERIES DE TIEMPO en Python",
+      "duracion_s": 1555.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=02ZU3j_SFpU",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "8CE4I8o4ZM0",
+      "titulo": "¿Cómo manejar un dataset DESBALANCEADO en Machine Learning?",
+      "duracion_s": 1219.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=8CE4I8o4ZM0",
+      "descripcion": "",
+      "fecha": ""
+    },
+    {
+      "id": "MCqViT-yHpY",
+      "titulo": "¿Qué son las BASES DE DATOS VECTORIALES? | Grandes Modelos de Lenguaje",
+      "duracion_s": 859.0,
+      "vistas": 0,
+      "url": "https://www.youtube.com/watch?v=MCqViT-yHpY",
+      "descripcion": "",
+      "fecha": ""
+    }
+  ]
+}

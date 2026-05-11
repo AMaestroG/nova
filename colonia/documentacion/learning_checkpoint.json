@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 60,
+      "attempts": 61,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778510708.0898,
+      "last_attempt": 1778511423.0712845,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 37,
+      "attempts": 38,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509706.4399674,
+      "last_attempt": 1778511493.0222194,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 911,
+    "total_processed": 913,
     "total_extracted": 0,
-    "total_failed": 911,
+    "total_failed": 913,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778511373.069174
+  "saved_at": 1778511493.0222952
 }

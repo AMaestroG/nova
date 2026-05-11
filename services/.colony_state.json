@@ -17,12 +17,11 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "ciclo_neuroplasticidad",
-      "entropy_gated",
-      "destilado"
+      "all_out_status",
+      "go3"
     ],
-    "last_saved": 1778511421.0308642,
-    "save_count": 3,
+    "last_saved": 1778511495.8234675,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -190,35 +189,47 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 2328,
-    "actions": 2328,
-    "tournaments": 232,
-    "consolidations": 155,
-    "last_cycle": 1778511398.2872226
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
   },
-  "night_shift._updated": 1778511398.287231,
-  "ciclo_neuroplasticidad": {
-    "esfuerzo": "Entropy Gaming + Torneos + Delegación",
-    "descanso": "Night Shift + Consolidación + Reflexión",
-    "ratio": "60% esfuerzo / 40% descanso",
-    "sueno_profundo": "Deep Layers Capa 3 (Reflexión)"
-  },
-  "ciclo_neuroplasticidad._updated": 1778511420.9980643,
-  "entropy_gated": {
-    "phase": "balance",
-    "action": "MAINTAIN: Perfect balance. Continue.",
-    "applied_to": [
-      "Quantum Corrector",
-      "Deep Layers",
-      "Delegation depth",
-      "Tournament frequency"
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 174,
+    "matches": 4872,
+    "proactive_actions": 116,
+    "scientific_evals": 348,
+    "consolidations": 58,
+    "cycles": 173,
+    "champions": [
+      {
+        "agent": "YOUTUBE",
+        "elo": 1099.135206138563
+      },
+      {
+        "agent": "YOUTUBE",
+        "elo": 1084.5523344177398
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1042.6013261092994
+      },
+      {
+        "agent": "MEMORIA",
+        "elo": 1099.9245160440148
+      },
+      {
+        "agent": "ORÁCULO",
+        "elo": 1055.1957596561026
+      }
     ]
   },
-  "entropy_gated._updated": 1778511421.001973,
-  "destilado": {
-    "hats": 6,
-    "champion": "SENTINEL",
-    "crystallized": 8
+  "all_out_status._updated": 1778511487.2289584,
+  "go3": {
+    "champion": "YOUTUBE",
+    "canal": "codificandobits"
   },
-  "destilado._updated": 1778511421.03086
+  "go3._updated": 1778511495.8234646
 }
