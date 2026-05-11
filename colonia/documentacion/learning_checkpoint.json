@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 83,
+      "attempts": 84,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507667.570787,
+      "last_attempt": 1778508209.5633357,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 79,
+      "attempts": 80,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507696.8512232,
+      "last_attempt": 1778508276.2659228,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 69,
+      "attempts": 70,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507392.5178018,
+      "last_attempt": 1778508138.3143651,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 64,
+      "attempts": 65,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507574.226463,
+      "last_attempt": 1778508335.1091387,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 59,
+      "attempts": 60,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507636.274628,
+      "last_attempt": 1778508381.2104704,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 56,
+      "attempts": 57,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507731.2321925,
+      "last_attempt": 1778508442.886426,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 847,
+    "total_processed": 853,
     "total_extracted": 0,
-    "total_failed": 847,
+    "total_failed": 853,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778508084.1263053
+  "saved_at": 1778508442.886552
 }

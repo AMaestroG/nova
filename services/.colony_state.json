@@ -19,8 +19,8 @@
       "night_shift",
       "all_out_status"
     ],
-    "last_saved": 1778508097.0924366,
-    "save_count": 235,
+    "last_saved": 1778508487.1037936,
+    "save_count": 248,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -196,34 +196,34 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 118,
-    "matches": 3304,
-    "proactive_actions": 79,
-    "scientific_evals": 235,
-    "consolidations": 39,
-    "cycles": 117,
+    "tournaments": 124,
+    "matches": 3472,
+    "proactive_actions": 83,
+    "scientific_evals": 248,
+    "consolidations": 42,
+    "cycles": 123,
     "champions": [
       {
         "agent": "SENTINEL",
-        "elo": 1082.106272941
+        "elo": 1104.8889043671934
       },
       {
         "agent": "SENTINEL",
-        "elo": 1102.8916581185063
+        "elo": 1141.7457041840958
       },
       {
         "agent": "SENTINEL",
-        "elo": 1054.4592024414635
+        "elo": 1085.526544671186
       },
       {
         "agent": "SENTINEL",
-        "elo": 1027.1700623303543
+        "elo": 1066.1197083568863
       },
       {
         "agent": "SENTINEL",
-        "elo": 1066.866003170117
+        "elo": 1084.7235252421924
       }
     ]
   },
-  "all_out_status._updated": 1778508097.0924327
+  "all_out_status._updated": 1778508487.10379
 }
