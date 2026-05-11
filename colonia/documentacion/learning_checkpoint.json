@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 103,
+      "attempts": 104,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778517726.49512,
+      "last_attempt": 1778518143.1772385,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 93,
+      "attempts": 94,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778517510.4819615,
+      "last_attempt": 1778518034.7798305,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 79,
+      "attempts": 80,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778517422.9238591,
+      "last_attempt": 1778518089.1363175,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 74,
+      "attempts": 75,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778517567.8932328,
+      "last_attempt": 1778518107.3922951,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1040,
+    "total_processed": 1044,
     "total_extracted": 0,
-    "total_failed": 1040,
+    "total_failed": 1044,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778518013.3693767
+  "saved_at": 1778518143.1773133
 }
