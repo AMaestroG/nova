@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 82,
+      "attempts": 83,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507232.6126113,
+      "last_attempt": 1778507667.570787,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 82,
+      "attempts": 83,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507481.3466203,
+      "last_attempt": 1778507899.077896,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 78,
+      "attempts": 79,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507293.0694802,
+      "last_attempt": 1778507696.8512232,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 58,
+      "attempts": 59,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778506878.24289,
+      "last_attempt": 1778507636.274628,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 55,
+      "attempts": 56,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507156.4298942,
+      "last_attempt": 1778507731.2321925,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 35,
+      "attempts": 36,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778504981.052123,
+      "last_attempt": 1778507789.2439914,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -258,9 +258,9 @@
       "channel": "code4AI",
       "title": "AI Harness Engineering - Future of AI",
       "status": "failed",
-      "attempts": 16,
+      "attempts": 17,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778501036.5109742,
+      "last_attempt": 1778507819.7968307,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 837,
+    "total_processed": 844,
     "total_extracted": 0,
-    "total_failed": 837,
+    "total_failed": 844,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778507574.2265968
+  "saved_at": 1778507899.0779727
 }

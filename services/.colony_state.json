@@ -19,8 +19,8 @@
       "night_shift",
       "all_out_status"
     ],
-    "last_saved": 1778507617.0790372,
-    "save_count": 219,
+    "last_saved": 1778507917.087456,
+    "save_count": 229,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -196,34 +196,34 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 110,
-    "matches": 3080,
-    "proactive_actions": 73,
-    "scientific_evals": 219,
-    "consolidations": 37,
-    "cycles": 109,
+    "tournaments": 115,
+    "matches": 3220,
+    "proactive_actions": 77,
+    "scientific_evals": 229,
+    "consolidations": 38,
+    "cycles": 114,
     "champions": [
       {
-        "agent": "AUTOPILOT",
-        "elo": 1043.6999937182643
+        "agent": "MAESTRO",
+        "elo": 1081.1091949105066
       },
       {
         "agent": "SENTINEL",
-        "elo": 1057.1365507123555
+        "elo": 1100.514124663294
       },
       {
-        "agent": "MAESTRO",
-        "elo": 1042.7864920679824
+        "agent": "SENTINEL",
+        "elo": 1107.4413740007576
       },
       {
-        "agent": "MAESTRO",
-        "elo": 1102.0129416994264
+        "agent": "SENTINEL",
+        "elo": 1082.106272941
       },
       {
-        "agent": "MAESTRO",
-        "elo": 1108.008074093989
+        "agent": "SENTINEL",
+        "elo": 1102.8916581185063
       }
     ]
   },
-  "all_out_status._updated": 1778507617.0790331
+  "all_out_status._updated": 1778507917.0874515
 }
