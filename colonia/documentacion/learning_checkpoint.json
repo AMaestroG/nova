@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 91,
+      "attempts": 92,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511885.663365,
+      "last_attempt": 1778512255.1327024,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 86,
+      "attempts": 87,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511527.8089058,
+      "last_attempt": 1778512305.9373212,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 61,
+      "attempts": 62,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778511423.0712845,
+      "last_attempt": 1778512187.2103817,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 922,
+    "total_processed": 925,
     "total_extracted": 0,
-    "total_failed": 922,
+    "total_failed": 925,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778512025.813332
+  "saved_at": 1778512305.9373999
 }
