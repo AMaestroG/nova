@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 86,
+      "attempts": 87,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509405.0740004,
+      "last_attempt": 1778509733.5165079,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 75,
+      "attempts": 76,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509289.4845297,
+      "last_attempt": 1778509766.9057112,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 72,
+      "attempts": 73,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778509332.8226416,
+      "last_attempt": 1778509783.097909,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -258,9 +258,9 @@
       "channel": "code4AI",
       "title": "AI Harness Engineering - Future of AI",
       "status": "failed",
-      "attempts": 17,
+      "attempts": 18,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778507819.7968307,
+      "last_attempt": 1778509816.7574933,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -280,9 +280,9 @@
       "channel": "code4AI",
       "title": "The End of Human-Defined Skills: AI Eigenvectors",
       "status": "failed",
-      "attempts": 7,
+      "attempts": 8,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778499661.3549137,
+      "last_attempt": 1778509850.0342326,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 878,
+    "total_processed": 883,
     "total_extracted": 0,
-    "total_failed": 878,
+    "total_failed": 883,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778509706.4400427
+  "saved_at": 1778509850.0343099
 }
