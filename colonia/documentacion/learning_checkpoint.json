@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 100,
+      "attempts": 101,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778518731.6827052,
+      "last_attempt": 1778519314.196699,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 92,
+      "attempts": 93,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778518792.1358418,
+      "last_attempt": 1778519363.9096975,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1064,
+    "total_processed": 1066,
     "total_extracted": 0,
-    "total_failed": 1064,
+    "total_failed": 1066,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778519253.71695
+  "saved_at": 1778519363.909775
 }
