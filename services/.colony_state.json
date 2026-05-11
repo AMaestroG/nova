@@ -16,12 +16,10 @@
       "colony_cycle",
       "spatternet",
       "self_improvement_game",
-      "night_shift",
-      "all_out_status",
-      "autonomous"
+      "night_shift"
     ],
-    "last_saved": 1778520567.1235702,
-    "save_count": 75,
+    "last_saved": 1778520672.7344027,
+    "save_count": 945,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -189,52 +187,11 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 87,
-    "actions": 87,
-    "tournaments": 8,
-    "consolidations": 5,
-    "last_cycle": 1778501073.1938603
+    "cycles": 2838,
+    "actions": 2838,
+    "tournaments": 283,
+    "consolidations": 189,
+    "last_cycle": 1778520672.7343924
   },
-  "night_shift._updated": 1778501073.193868,
-  "all_out_status": {
-    "tournaments": 177,
-    "matches": 4956,
-    "proactive_actions": 118,
-    "scientific_evals": 354,
-    "consolidations": 59,
-    "cycles": 176,
-    "champions": [
-      {
-        "agent": "MEMORIA",
-        "elo": 1099.9245160440148
-      },
-      {
-        "agent": "ORÁCULO",
-        "elo": 1055.1957596561026
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1092.935893155644
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1103.812512472532
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1085.0916185165252
-      }
-    ]
-  },
-  "all_out_status._updated": 1778511667.2345495,
-  "autonomous": {
-    "searches": 60,
-    "indexed": 30,
-    "distilled": 0,
-    "implemented": 15,
-    "tournaments": 30,
-    "cycles": 74,
-    "started": 1778511667.9147854
-  },
-  "autonomous._updated": 1778520567.1235652
+  "night_shift._updated": 1778520672.7344
 }
