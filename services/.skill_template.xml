@@ -1,0 +1,22 @@
+# {skill_name}
+
+<identity>
+- **Nombre:** `{skill_slug}`
+- **Versión:** 1.0.0
+</identity>
+
+<instructions>
+{instructions}
+</instructions>
+
+<contract>
+- **Input esperado:** `{input_pattern}`
+- **Output esperado:** `{output_pattern}`
+</contract>
+
+<examples>
+<example>
+<input>{example_input}</input>
+<output>{example_output}</output>
+</example>
+</examples>
