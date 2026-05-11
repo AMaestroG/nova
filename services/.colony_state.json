@@ -17,10 +17,11 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "crab_agent"
+      "all_out_status",
+      "autonomous"
     ],
-    "last_saved": 1778518138.3147671,
-    "save_count": 1,
+    "last_saved": 1778518162.0110462,
+    "save_count": 55,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -188,40 +189,52 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 2697,
-    "actions": 2697,
-    "tournaments": 269,
-    "consolidations": 179,
-    "last_cycle": 1778518134.5666833
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
   },
-  "night_shift._updated": 1778518134.5666919,
-  "crab_agent": {
-    "qa_pairs": 11,
-    "total_questions": 32,
-    "inverse_cycles": 4,
-    "best_questions": [
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 177,
+    "matches": 4956,
+    "proactive_actions": 118,
+    "scientific_evals": 354,
+    "consolidations": 59,
+    "cycles": 176,
+    "champions": [
       {
-        "question": "¿Cómo se produce la inteligencia?",
-        "fitness": 0.6
+        "agent": "MEMORIA",
+        "elo": 1099.9245160440148
       },
       {
-        "question": "¿Qué relación hay entre entropía e inteligencia?",
-        "fitness": 0.6
+        "agent": "ORÁCULO",
+        "elo": 1055.1957596561026
       },
       {
-        "question": "¿Cuál es el principio físico de la inteligencia?",
-        "fitness": 0.6
+        "agent": "AUTOPILOT",
+        "elo": 1092.935893155644
       },
       {
-        "question": "¿Cuál es el sentido de la vida, el universo y todo lo demás?",
-        "fitness": 0.6
+        "agent": "AUTOPILOT",
+        "elo": 1103.812512472532
       },
       {
-        "question": "¿Qué número responde a la pregunta fundamental?",
-        "fitness": 0.6
+        "agent": "AUTOPILOT",
+        "elo": 1085.0916185165252
       }
-    ],
-    "recent_searches": 1
+    ]
   },
-  "crab_agent._updated": 1778518138.3147645
+  "all_out_status._updated": 1778511667.2345495,
+  "autonomous": {
+    "searches": 44,
+    "indexed": 22,
+    "distilled": 0,
+    "implemented": 11,
+    "tournaments": 22,
+    "cycles": 54,
+    "started": 1778511667.9147854
+  },
+  "autonomous._updated": 1778518162.011041
 }
