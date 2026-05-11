@@ -17,9 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "puertas_abiertas"
+      "all_out_status",
+      "auto"
     ],
-    "last_saved": 1778521483.8375168,
+    "last_saved": 1778521524.5845497,
     "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
@@ -188,19 +189,46 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 2883,
-    "actions": 2883,
-    "tournaments": 288,
-    "consolidations": 192,
-    "last_cycle": 1778521483.7430816
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
   },
-  "night_shift._updated": 1778521483.7430902,
-  "puertas_abiertas": {
-    "champion": "PIA",
-    "entropy_phase": "balance",
-    "temperature": 0.3,
-    "hive_cycles": 45,
-    "memes": 10
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 340,
+    "matches": 9520,
+    "proactive_actions": 227,
+    "scientific_evals": 680,
+    "consolidations": 114,
+    "cycles": 340,
+    "champions": [
+      {
+        "agent": "MAESTRO",
+        "elo": 1062.151253125029
+      },
+      {
+        "agent": "AUTOPILOT",
+        "elo": 1113.6093214122216
+      },
+      {
+        "agent": "MAESTRO",
+        "elo": 1090.5469173114523
+      },
+      {
+        "agent": "MAESTRO",
+        "elo": 1108.9441339129285
+      },
+      {
+        "agent": "MAESTRO",
+        "elo": 1091.974773260844
+      }
+    ]
   },
-  "puertas_abiertas._updated": 1778521483.8375134
+  "all_out_status._updated": 1778521520.7265663,
+  "auto": {
+    "champion": "PIA"
+  },
+  "auto._updated": 1778521524.584544
 }

@@ -1,12 +1,11 @@
 {
-  "total_tasks_created": 368,
-  "total_tasks_completed": 313,
+  "total_tasks_created": 378,
+  "total_tasks_completed": 322,
   "total_tasks_failed": 0,
   "pending_count": 1,
   "active_count": 0,
   "blocked_count": 0,
   "agents": [
-    "AURA",
     "MEMORIA",
     "PIA",
     "MAESTRO",
@@ -15,7 +14,8 @@
     "AUTOPILOT",
     "EXPLORADOR",
     "YOUTUBE",
+    "AURA",
     "NYX"
   ],
-  "last_updated": 1778521483.8361833
+  "last_updated": 1778521524.5731318
 }
