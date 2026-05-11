@@ -18,10 +18,10 @@
       "self_improvement_game",
       "night_shift",
       "all_out_status",
-      "propagar"
+      "autonomous"
     ],
-    "last_saved": 1778520501.2940907,
-    "save_count": 1,
+    "last_saved": 1778520567.1235702,
+    "save_count": 75,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -197,40 +197,44 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 323,
-    "matches": 9044,
-    "proactive_actions": 216,
-    "scientific_evals": 646,
-    "consolidations": 108,
-    "cycles": 323,
+    "tournaments": 177,
+    "matches": 4956,
+    "proactive_actions": 118,
+    "scientific_evals": 354,
+    "consolidations": 59,
+    "cycles": 176,
     "champions": [
       {
-        "agent": "EXPLORADOR",
-        "elo": 1072.675589403678
+        "agent": "MEMORIA",
+        "elo": 1099.9245160440148
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1122.438934233256
+        "agent": "ORÁCULO",
+        "elo": 1055.1957596561026
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1043.4590430077108
+        "agent": "AUTOPILOT",
+        "elo": 1092.935893155644
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1069.0483774254242
+        "agent": "AUTOPILOT",
+        "elo": 1103.812512472532
       },
       {
-        "agent": "EXPLORADOR",
-        "elo": 1064.4073441938272
+        "agent": "AUTOPILOT",
+        "elo": 1085.0916185165252
       }
     ]
   },
-  "all_out_status._updated": 1778520500.6974914,
-  "propagar": {
-    "champion": "EXPLORADOR",
-    "hive_cycles": 35,
-    "memes": 10
+  "all_out_status._updated": 1778511667.2345495,
+  "autonomous": {
+    "searches": 60,
+    "indexed": 30,
+    "distilled": 0,
+    "implemented": 15,
+    "tournaments": 30,
+    "cycles": 74,
+    "started": 1778511667.9147854
   },
-  "propagar._updated": 1778520501.2940881
+  "autonomous._updated": 1778520567.1235652
 }
