@@ -18,9 +18,9 @@
       "self_improvement_game",
       "night_shift",
       "all_out_status",
-      "llm_judge"
+      "go"
     ],
-    "last_saved": 1778509978.5604804,
+    "last_saved": 1778510097.1274998,
     "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
@@ -197,21 +197,13 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 149,
-    "matches": 4172,
-    "proactive_actions": 99,
-    "scientific_evals": 297,
+    "tournaments": 151,
+    "matches": 4228,
+    "proactive_actions": 101,
+    "scientific_evals": 301,
     "consolidations": 50,
-    "cycles": 148,
+    "cycles": 150,
     "champions": [
-      {
-        "agent": "ORÁCULO",
-        "elo": 1060.2008771775402
-      },
-      {
-        "agent": "ORÁCULO",
-        "elo": 1081.0530386332482
-      },
       {
         "agent": "ORÁCULO",
         "elo": 1127.349116471337
@@ -223,19 +215,21 @@
       {
         "agent": "ORÁCULO",
         "elo": 1097.868946336774
+      },
+      {
+        "agent": "SENTINEL",
+        "elo": 1008.4435729980605
+      },
+      {
+        "agent": "ORÁCULO",
+        "elo": 1065.6824845676074
       }
     ]
   },
-  "all_out_status._updated": 1778509957.1542337,
-  "llm_judge": {
-    "active": true,
-    "judge_agent": "SENTINEL",
-    "outcomes": [
-      "ALLOW",
-      "BLOCK",
-      "REVISE",
-      "ESCALATE"
-    ]
+  "all_out_status._updated": 1778510077.162712,
+  "go": {
+    "champion": "MEMORIA",
+    "delegations": 1
   },
-  "llm_judge._updated": 1778509978.5604787
+  "go._updated": 1778510097.127497
 }
