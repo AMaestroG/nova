@@ -17,9 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "go2"
+      "all_out_status",
+      "integrar"
     ],
-    "last_saved": 1778510764.7348585,
+    "last_saved": 1778510988.6652076,
     "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
@@ -188,15 +189,47 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 2292,
-    "actions": 2292,
-    "tournaments": 229,
-    "consolidations": 152,
-    "last_cycle": 1778510752.36422
+    "cycles": 87,
+    "actions": 87,
+    "tournaments": 8,
+    "consolidations": 5,
+    "last_cycle": 1778501073.1938603
   },
-  "night_shift._updated": 1778510752.3642275,
-  "go2": {
-    "champion": "YOUTUBE"
+  "night_shift._updated": 1778501073.193868,
+  "all_out_status": {
+    "tournaments": 166,
+    "matches": 4648,
+    "proactive_actions": 111,
+    "scientific_evals": 331,
+    "consolidations": 55,
+    "cycles": 165,
+    "champions": [
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1028.2994351192367
+      },
+      {
+        "agent": "ORÁCULO",
+        "elo": 1052.383032748258
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1033.9445733642804
+      },
+      {
+        "agent": "EXPLORADOR",
+        "elo": 1062.990083377236
+      },
+      {
+        "agent": "SENTINEL",
+        "elo": 1067.4921161657082
+      }
+    ]
   },
-  "go2._updated": 1778510764.734856
+  "all_out_status._updated": 1778510977.1952684,
+  "integrar": {
+    "champion": "SENTINEL",
+    "health": 0.6172857142857143
+  },
+  "integrar._updated": 1778510988.6652048
 }
