@@ -18,10 +18,10 @@
       "self_improvement_game",
       "night_shift",
       "all_out_status",
-      "autonomous"
+      "crab"
     ],
-    "last_saved": 1778518162.0110462,
-    "save_count": 55,
+    "last_saved": 1778518192.3440711,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -197,44 +197,38 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 177,
-    "matches": 4956,
-    "proactive_actions": 118,
-    "scientific_evals": 354,
-    "consolidations": 59,
-    "cycles": 176,
+    "tournaments": 285,
+    "matches": 7980,
+    "proactive_actions": 190,
+    "scientific_evals": 569,
+    "consolidations": 95,
+    "cycles": 285,
     "champions": [
       {
-        "agent": "MEMORIA",
-        "elo": 1099.9245160440148
+        "agent": "EXPLORADOR",
+        "elo": 1056.6884229246064
       },
       {
-        "agent": "ORÁCULO",
-        "elo": 1055.1957596561026
+        "agent": "EXPLORADOR",
+        "elo": 1020.5870288941248
+      },
+      {
+        "agent": "MAESTRO",
+        "elo": 1030.7318469959657
+      },
+      {
+        "agent": "MAESTRO",
+        "elo": 1038.280783889357
       },
       {
         "agent": "AUTOPILOT",
-        "elo": 1092.935893155644
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1103.812512472532
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1085.0916185165252
+        "elo": 1036.2070662929555
       }
     ]
   },
-  "all_out_status._updated": 1778511667.2345495,
-  "autonomous": {
-    "searches": 44,
-    "indexed": 22,
-    "distilled": 0,
-    "implemented": 11,
-    "tournaments": 22,
-    "cycles": 54,
-    "started": 1778511667.9147854
+  "all_out_status._updated": 1778518190.6260765,
+  "crab": {
+    "champion": "AUTOPILOT"
   },
-  "autonomous._updated": 1778518162.011041
+  "crab._updated": 1778518192.3440664
 }
