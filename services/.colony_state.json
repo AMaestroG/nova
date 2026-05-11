@@ -17,11 +17,10 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status",
-      "autonomous"
+      "hive_mind_activated"
     ],
-    "last_saved": 1778517560.6913595,
-    "save_count": 50,
+    "last_saved": 1778518022.7733467,
+    "save_count": 1,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -189,52 +188,80 @@
   },
   "self_improvement_game._updated": 1778469376.7551117,
   "night_shift": {
-    "cycles": 87,
-    "actions": 87,
-    "tournaments": 8,
-    "consolidations": 5,
-    "last_cycle": 1778501073.1938603
+    "cycles": 1023,
+    "actions": 1023,
+    "tournaments": 102,
+    "consolidations": 68,
+    "last_cycle": 1778518013.994692
   },
-  "night_shift._updated": 1778501073.193868,
-  "all_out_status": {
-    "tournaments": 177,
-    "matches": 4956,
-    "proactive_actions": 118,
-    "scientific_evals": 354,
-    "consolidations": 59,
-    "cycles": 176,
-    "champions": [
-      {
-        "agent": "MEMORIA",
-        "elo": 1099.9245160440148
+  "night_shift._updated": 1778518013.9947004,
+  "hive_mind_activated": {
+    "vector_store": {
+      "total_points": 14,
+      "layers": {
+        "0": 14,
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14
       },
-      {
-        "agent": "ORÁCULO",
-        "elo": 1055.1957596561026
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1092.935893155644
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1103.812512472532
-      },
-      {
-        "agent": "AUTOPILOT",
-        "elo": 1085.0916185165252
+      "dimensions": {
+        "0": 384,
+        "1": 256,
+        "2": 128,
+        "3": 64,
+        "4": 32
       }
-    ]
+    },
+    "neural_network": {
+      "total_neurons": 10,
+      "layers": 5,
+      "total_connections": 15,
+      "most_active": [
+        [
+          "YOUTUBE",
+          22.0
+        ],
+        [
+          "EXPLORADOR",
+          22.0
+        ],
+        [
+          "AURA",
+          17.0
+        ],
+        [
+          "SENTINEL",
+          9.0
+        ],
+        [
+          "AUTOPILOT",
+          4.0
+        ]
+      ]
+    },
+    "memetic_engine": {
+      "population": 10,
+      "generation": 2,
+      "total_births": 13,
+      "total_deaths": 0,
+      "avg_fitness": 0.009926155646049473,
+      "fittest": [
+        [
+          "Los agentes fallan por CONTEXTO, no por prompts. Context Engineering > Prompt En",
+          0.01
+        ],
+        [
+          "Maximizar entropía = maximizar inteligencia. Elegir caminos con más estados futu",
+          0.01
+        ],
+        [
+          "No construyas agentes, construye SKILLS. Skills deterministas, testeables, compo",
+          0.01
+        ]
+      ]
+    },
+    "cycles": 21
   },
-  "all_out_status._updated": 1778511667.2345495,
-  "autonomous": {
-    "searches": 40,
-    "indexed": 20,
-    "distilled": 0,
-    "implemented": 10,
-    "tournaments": 20,
-    "cycles": 49,
-    "started": 1778511667.9147854
-  },
-  "autonomous._updated": 1778517560.691354
+  "hive_mind_activated._updated": 1778518022.7733421
 }
