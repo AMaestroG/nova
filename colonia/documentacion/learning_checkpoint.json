@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 99,
+      "attempts": 100,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778515750.3888729,
+      "last_attempt": 1778516246.0076911,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 94,
+      "attempts": 95,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778515817.2840183,
+      "last_attempt": 1778516315.919002,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1003,
+    "total_processed": 1005,
     "total_extracted": 0,
-    "total_failed": 1003,
+    "total_failed": 1005,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778516176.6843936
+  "saved_at": 1778516315.9190803
 }
