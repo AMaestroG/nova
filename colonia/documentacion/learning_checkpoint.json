@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 292,
+      "attempts": 293,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778622539.5646074,
+      "last_attempt": 1778623100.6285038,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 289,
+      "attempts": 290,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778622219.672773,
+      "last_attempt": 1778623164.0543444,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 282,
+      "attempts": 283,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778622275.6856976,
+      "last_attempt": 1778623234.0675595,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 276,
+      "attempts": 277,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778622614.2912538,
+      "last_attempt": 1778623303.2720633,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 270,
+      "attempts": 271,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778622352.3734357,
+      "last_attempt": 1778623464.913908,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 125,
+      "attempts": 126,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778621316.8146338,
+      "last_attempt": 1778623015.0207083,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 2912,
+    "total_processed": 2918,
     "total_extracted": 1,
-    "total_failed": 2911,
+    "total_failed": 2917,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778622866.985111
+  "saved_at": 1778623464.9139893
 }
