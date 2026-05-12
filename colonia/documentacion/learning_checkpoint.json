@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 251,
+      "attempts": 252,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599747.3018904,
+      "last_attempt": 1778600197.3601959,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 249,
+      "attempts": 250,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599984.8423805,
+      "last_attempt": 1778600383.9112487,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 242,
+      "attempts": 243,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599543.2113636,
+      "last_attempt": 1778600036.782725,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 236,
+      "attempts": 237,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599812.788284,
+      "last_attempt": 1778600220.2768397,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 232,
+      "attempts": 233,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599878.6335132,
+      "last_attempt": 1778600467.3380175,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 198,
+      "attempts": 199,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599382.4042253,
+      "last_attempt": 1778600070.31542,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 180,
+      "attempts": 181,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599405.6464288,
+      "last_attempt": 1778600095.2828176,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 156,
+      "attempts": 157,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599439.2434475,
+      "last_attempt": 1778600134.7981906,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 106,
+      "attempts": 107,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599623.0665536,
+      "last_attempt": 1778600237.7079196,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -258,9 +258,9 @@
       "channel": "code4AI",
       "title": "AI Harness Engineering - Future of AI",
       "status": "failed",
-      "attempts": 54,
+      "attempts": 55,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599646.0634491,
+      "last_attempt": 1778600300.218148,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -280,9 +280,9 @@
       "channel": "code4AI",
       "title": "The End of Human-Defined Skills: AI Eigenvectors",
       "status": "failed",
-      "attempts": 19,
+      "attempts": 20,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778599674.8160295,
+      "last_attempt": 1778600324.6841943,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 2509,
+    "total_processed": 2520,
     "total_extracted": 1,
-    "total_failed": 2508,
+    "total_failed": 2519,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778599984.8424592
+  "saved_at": 1778600467.3380964
 }
