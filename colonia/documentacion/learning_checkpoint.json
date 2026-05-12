@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 172,
+      "attempts": 173,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555588.933281,
+      "last_attempt": 1778556264.1508956,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 161,
+      "attempts": 162,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555285.49615,
+      "last_attempt": 1778556086.9730744,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 157,
+      "attempts": 158,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555642.1331854,
+      "last_attempt": 1778556340.5418267,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 148,
+      "attempts": 149,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555345.522984,
+      "last_attempt": 1778556113.683408,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 138,
+      "attempts": 139,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555407.5431385,
+      "last_attempt": 1778556177.1649399,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 131,
+      "attempts": 132,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555778.9975379,
+      "last_attempt": 1778556406.4242806,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 120,
+      "attempts": 121,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555472.3369484,
+      "last_attempt": 1778556489.5333445,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 104,
+      "attempts": 105,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778555842.5682168,
+      "last_attempt": 1778556583.1122994,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 1750,
+    "total_processed": 1758,
     "total_extracted": 1,
-    "total_failed": 1749,
+    "total_failed": 1757,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778555997.221479
+  "saved_at": 1778556583.1123803
 }
