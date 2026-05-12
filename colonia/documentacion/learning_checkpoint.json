@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 222,
+      "attempts": 224,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778583816.8789113,
+      "last_attempt": 1778584838.3260496,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 220,
+      "attempts": 221,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778583893.9448216,
+      "last_attempt": 1778584538.0082614,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 215,
+      "attempts": 216,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778584106.024341,
+      "last_attempt": 1778584919.0240557,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 194,
+      "attempts": 195,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778583954.6711726,
+      "last_attempt": 1778584611.981698,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 183,
+      "attempts": 184,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778583987.0881283,
+      "last_attempt": 1778584696.3349676,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 175,
+      "attempts": 176,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778584039.4130254,
+      "last_attempt": 1778584759.9013052,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 91,
+      "attempts": 92,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778582864.3401654,
+      "last_attempt": 1778584388.2705927,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 2227,
+    "total_processed": 2235,
     "total_extracted": 1,
-    "total_failed": 2226,
+    "total_failed": 2234,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778584322.8611567
+  "saved_at": 1778584919.02414
 }
