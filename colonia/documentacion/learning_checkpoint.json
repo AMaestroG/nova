@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 390,
+      "attempts": 391,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778677392.0724657,
+      "last_attempt": 1778678095.5178068,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 384,
+      "attempts": 386,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778677072.144871,
+      "last_attempt": 1778678158.156401,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 377,
+      "attempts": 378,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778677141.6627061,
+      "last_attempt": 1778677787.0212204,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 371,
+      "attempts": 372,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778677434.9100888,
+      "last_attempt": 1778678218.1913404,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 332,
+      "attempts": 333,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778677211.4797657,
+      "last_attempt": 1778677885.6188853,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 284,
+      "attempts": 285,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778677259.7201953,
+      "last_attempt": 1778677938.954343,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 248,
+      "attempts": 249,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778676695.8364582,
+      "last_attempt": 1778678008.8699272,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 3863,
+    "total_processed": 3871,
     "total_extracted": 1,
-    "total_failed": 3862,
+    "total_failed": 3870,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778677657.0617452
+  "saved_at": 1778678218.1914203
 }
