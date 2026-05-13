@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 327,
+      "attempts": 328,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778642036.2867157,
+      "last_attempt": 1778642671.353941,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 310,
+      "attempts": 311,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641761.615872,
+      "last_attempt": 1778642285.6462736,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 303,
+      "attempts": 304,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641671.508065,
+      "last_attempt": 1778642199.9121704,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 289,
+      "attempts": 290,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641830.3013842,
+      "last_attempt": 1778642346.0990877,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 275,
+      "attempts": 276,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641887.6212974,
+      "last_attempt": 1778642406.5810957,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 260,
+      "attempts": 261,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641731.9391537,
+      "last_attempt": 1778642488.1885529,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 237,
+      "attempts": 238,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641906.4256465,
+      "last_attempt": 1778642610.428441,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 142,
+      "attempts": 143,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778641486.9151807,
+      "last_attempt": 1778642214.0216572,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 3251,
+    "total_processed": 3259,
     "total_extracted": 1,
-    "total_failed": 3250,
+    "total_failed": 3258,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778642135.5932727
+  "saved_at": 1778642671.3540163
 }
