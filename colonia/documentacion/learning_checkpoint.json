@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 404,
+      "attempts": 405,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778685793.0206845,
+      "last_attempt": 1778686630.4404316,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 376,
+      "attempts": 377,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778685452.5203977,
+      "last_attempt": 1778686162.2248719,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 361,
+      "attempts": 362,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778685526.9710658,
+      "last_attempt": 1778686336.104049,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 344,
+      "attempts": 345,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778685566.171209,
+      "last_attempt": 1778686430.6984107,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 324,
+      "attempts": 325,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778685611.7315526,
+      "last_attempt": 1778686494.6579194,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 295,
+      "attempts": 296,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778685672.4609532,
+      "last_attempt": 1778686537.934929,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 3998,
+    "total_processed": 4004,
     "total_extracted": 1,
-    "total_failed": 3997,
+    "total_failed": 4003,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778686036.8086152
+  "saved_at": 1778686630.4405134
 }
