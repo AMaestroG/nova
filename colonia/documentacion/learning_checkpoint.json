@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 376,
+      "attempts": 377,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778669023.2391593,
+      "last_attempt": 1778669741.753637,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 371,
+      "attempts": 372,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778669080.5962496,
+      "last_attempt": 1778669806.2847738,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 363,
+      "attempts": 364,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778668761.921283,
+      "last_attempt": 1778669294.7540293,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 357,
+      "attempts": 358,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778668828.6974034,
+      "last_attempt": 1778669364.2943635,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 350,
+      "attempts": 351,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778668897.9803991,
+      "last_attempt": 1778669447.523346,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 239,
+      "attempts": 240,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778668674.6436594,
+      "last_attempt": 1778669523.8129017,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -258,9 +258,9 @@
       "channel": "code4AI",
       "title": "AI Harness Engineering - Future of AI",
       "status": "failed",
-      "attempts": 87,
+      "attempts": 88,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778666510.1661575,
+      "last_attempt": 1778669672.1274464,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 3728,
+    "total_processed": 3735,
     "total_extracted": 1,
-    "total_failed": 3727,
+    "total_failed": 3734,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778669224.2579148
+  "saved_at": 1778669806.2848516
 }
