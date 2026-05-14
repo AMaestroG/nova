@@ -17,10 +17,11 @@
       "spatternet",
       "self_improvement_game",
       "night_shift",
-      "all_out_status"
+      "all_out_status",
+      "autonomous"
     ],
-    "last_saved": 1778723427.7882872,
-    "save_count": 7409,
+    "last_saved": 1778724029.080546,
+    "save_count": 1765,
     "last_propagation_test": 1778467337.8441725,
     "propagation_test_events": 1
   },
@@ -196,34 +197,44 @@
   },
   "night_shift._updated": 1778501073.193868,
   "all_out_status": {
-    "tournaments": 3705,
-    "matches": 103740,
-    "proactive_actions": 2470,
-    "scientific_evals": 7409,
-    "consolidations": 1232,
-    "cycles": 3705,
+    "tournaments": 177,
+    "matches": 4956,
+    "proactive_actions": 118,
+    "scientific_evals": 354,
+    "consolidations": 59,
+    "cycles": 176,
     "champions": [
       {
-        "agent": "ORÁCULO",
-        "elo": 1071.149169537363
+        "agent": "MEMORIA",
+        "elo": 1099.9245160440148
       },
       {
         "agent": "ORÁCULO",
-        "elo": 1093.4204621489093
+        "elo": 1055.1957596561026
       },
       {
-        "agent": "PIA",
-        "elo": 1073.135448899685
+        "agent": "AUTOPILOT",
+        "elo": 1092.935893155644
       },
       {
-        "agent": "ORÁCULO",
-        "elo": 1100.9074891071352
+        "agent": "AUTOPILOT",
+        "elo": 1103.812512472532
       },
       {
-        "agent": "ORÁCULO",
-        "elo": 1084.8033574863525
+        "agent": "AUTOPILOT",
+        "elo": 1085.0916185165252
       }
     ]
   },
-  "all_out_status._updated": 1778723427.7882826
+  "all_out_status._updated": 1778511667.2345495,
+  "autonomous": {
+    "searches": 1376,
+    "indexed": 708,
+    "distilled": 0,
+    "implemented": 354,
+    "tournaments": 708,
+    "cycles": 1764,
+    "started": 1778511667.9147854
+  },
+  "autonomous._updated": 1778724029.0805407
 }
