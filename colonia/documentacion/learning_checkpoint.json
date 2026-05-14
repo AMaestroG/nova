@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 525,
+      "attempts": 526,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778760799.4112926,
+      "last_attempt": 1778761381.884016,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 517,
+      "attempts": 518,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778761078.2133565,
+      "last_attempt": 1778761599.1151912,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 510,
+      "attempts": 511,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778761128.8279407,
+      "last_attempt": 1778761679.88001,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 499,
+      "attempts": 500,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778761189.3704498,
+      "last_attempt": 1778761749.5274832,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 461,
+      "attempts": 462,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778760870.920549,
+      "last_attempt": 1778761445.6881132,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 441,
+      "attempts": 442,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778760946.957319,
+      "last_attempt": 1778761468.0695608,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 403,
+      "attempts": 404,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778760986.9522727,
+      "last_attempt": 1778761828.0235941,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 227,
+      "attempts": 228,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778760068.434479,
+      "last_attempt": 1778761515.3201373,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -258,9 +258,9 @@
       "channel": "code4AI",
       "title": "AI Harness Engineering - Future of AI",
       "status": "failed",
-      "attempts": 110,
+      "attempts": 111,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778758422.4528217,
+      "last_attempt": 1778761895.1850395,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 5249,
+    "total_processed": 5258,
     "total_extracted": 1,
-    "total_failed": 5248,
+    "total_failed": 5257,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778761321.8876345
+  "saved_at": 1778761895.185117
 }
