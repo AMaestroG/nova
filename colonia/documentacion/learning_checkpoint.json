@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 598,
+      "attempts": 599,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794969.4017153,
+      "last_attempt": 1778795550.212227,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 590,
+      "attempts": 591,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794689.63596,
+      "last_attempt": 1778795239.1212814,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 581,
+      "attempts": 582,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778795039.9440408,
+      "last_attempt": 1778795580.2296221,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 571,
+      "attempts": 572,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794742.3089895,
+      "last_attempt": 1778795266.39655,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 559,
+      "attempts": 560,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794780.4482107,
+      "last_attempt": 1778795320.6391609,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 539,
+      "attempts": 541,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794589.7773643,
+      "last_attempt": 1778795597.2122762,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 516,
+      "attempts": 518,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794601.1094217,
+      "last_attempt": 1778795669.8915386,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 494,
+      "attempts": 495,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794836.3863573,
+      "last_attempt": 1778795395.42854,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 452,
+      "attempts": 453,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794362.432027,
+      "last_attempt": 1778795181.7933803,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 391,
+      "attempts": 392,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778794416.386235,
+      "last_attempt": 1778795476.4565263,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 5900,
+    "total_processed": 5912,
     "total_extracted": 1,
-    "total_failed": 5899,
+    "total_failed": 5911,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778795039.9441175
+  "saved_at": 1778795669.891612
 }
