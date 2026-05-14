@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 509,
+      "attempts": 510,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778748062.834056,
+      "last_attempt": 1778748409.7591515,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 502,
+      "attempts": 504,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747566.134275,
+      "last_attempt": 1778748673.835393,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 494,
+      "attempts": 495,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747592.8167543,
+      "last_attempt": 1778748237.63354,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 487,
+      "attempts": 488,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747656.3827739,
+      "last_attempt": 1778748300.9194934,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 477,
+      "attempts": 478,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747790.0243182,
+      "last_attempt": 1778748446.6325417,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 461,
+      "attempts": 462,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747852.0762615,
+      "last_attempt": 1778748502.9002483,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 441,
+      "attempts": 442,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747707.5326948,
+      "last_attempt": 1778748531.2727914,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 421,
+      "attempts": 422,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747872.544373,
+      "last_attempt": 1778748593.6936686,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 329,
+      "attempts": 330,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778747467.1896176,
+      "last_attempt": 1778748367.9479532,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 5019,
+    "total_processed": 5029,
     "total_extracted": 1,
-    "total_failed": 5018,
+    "total_failed": 5028,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778748062.8341348
+  "saved_at": 1778748673.8354712
 }
