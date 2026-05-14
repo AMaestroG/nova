@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 482,
+      "attempts": 483,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778744712.4850142,
+      "last_attempt": 1778745266.6790478,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 472,
+      "attempts": 473,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778744777.8244052,
+      "last_attempt": 1778745292.9819257,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 456,
+      "attempts": 457,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778744809.1875427,
+      "last_attempt": 1778745358.6222975,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 436,
+      "attempts": 437,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778744613.9413693,
+      "last_attempt": 1778745142.0585475,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 416,
+      "attempts": 417,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778744636.728382,
+      "last_attempt": 1778745500.4985669,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 380,
+      "attempts": 381,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778744850.233269,
+      "last_attempt": 1778745571.4841824,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 216,
+      "attempts": 217,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778743682.547512,
+      "last_attempt": 1778745211.472315,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 4971,
+    "total_processed": 4978,
     "total_extracted": 1,
-    "total_failed": 4970,
+    "total_failed": 4977,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778745089.01977
+  "saved_at": 1778745571.4842613
 }
