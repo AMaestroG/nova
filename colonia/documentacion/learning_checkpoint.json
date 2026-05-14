@@ -27,9 +27,9 @@
       "channel": "code4AI",
       "title": "AGI is Dead. SKILLS will serve us better.",
       "status": "failed",
-      "attempts": 512,
+      "attempts": 513,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749456.1195915,
+      "last_attempt": 1778750000.4632387,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -38,9 +38,9 @@
       "channel": "code4AI",
       "title": "Self Evolving Dual AI Agent System = AutoResearch 2.0 (LSE)",
       "status": "failed",
-      "attempts": 506,
+      "attempts": 507,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749687.5754073,
+      "last_attempt": 1778750274.691535,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -104,9 +104,9 @@
       "channel": "code4AI",
       "title": "Multi-Agent Prompt Engineering is Dead: NEW Proof Your Agents Aren't Talking",
       "status": "failed",
-      "attempts": 498,
+      "attempts": 499,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749747.919679,
+      "last_attempt": 1778750354.5436888,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -115,9 +115,9 @@
       "channel": "code4AI",
       "title": "Meta Harness: Every AI Needs a Harness AI (Claude Code, MIT, Stanford)",
       "status": "failed",
-      "attempts": 490,
+      "attempts": 491,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749478.1385207,
+      "last_attempt": 1778750070.9825847,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -126,9 +126,9 @@
       "channel": "code4AI",
       "title": "A Better, Cheaper RAG (Neuro-Sym Multi-hop Reasoning)",
       "status": "failed",
-      "attempts": 480,
+      "attempts": 481,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749537.0179489,
+      "last_attempt": 1778750120.4460645,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -137,9 +137,9 @@
       "channel": "code4AI",
       "title": "Knowledge Graphs vs Context Spaces in AI",
       "status": "failed",
-      "attempts": 464,
+      "attempts": 465,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749598.860032,
+      "last_attempt": 1778750149.0844803,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -148,9 +148,9 @@
       "channel": "code4AI",
       "title": "SuperIntelligence: Why the Future of AI is a File System (CORAL)",
       "status": "failed",
-      "attempts": 444,
+      "attempts": 445,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749661.632525,
+      "last_attempt": 1778750436.8183665,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -170,9 +170,9 @@
       "channel": "code4AI",
       "title": "Can an AI Filesystem unlock Intelligence? Agent Harness (Anthropic, Tsinghua)",
       "status": "failed",
-      "attempts": 424,
+      "attempts": 425,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749831.625689,
+      "last_attempt": 1778750467.610826,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -192,9 +192,9 @@
       "channel": "code4AI",
       "title": "The End of Monolithic AI: BIG + Small LM Together",
       "status": "failed",
-      "attempts": 387,
+      "attempts": 388,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749856.525793,
+      "last_attempt": 1778750497.363565,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -203,9 +203,9 @@
       "channel": "code4AI",
       "title": "When to use Small LM for AI Agents: New Insights",
       "status": "failed",
-      "attempts": 331,
+      "attempts": 332,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778749076.9723148,
+      "last_attempt": 1778749929.212813,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -247,9 +247,9 @@
       "channel": "code4AI",
       "title": "Quantum AI: Quantum Kernel Advantage",
       "status": "failed",
-      "attempts": 219,
+      "attempts": 220,
       "last_error": "Extracci\u00f3n fallida",
-      "last_attempt": 1778748854.137457,
+      "last_attempt": 1778750211.5129886,
       "extracted_at": 0.0,
       "chars": 0
     },
@@ -552,12 +552,12 @@
     }
   ],
   "stats": {
-    "total_processed": 5052,
+    "total_processed": 5063,
     "total_extracted": 1,
-    "total_failed": 5051,
+    "total_failed": 5062,
     "total_skipped": 0,
     "cycles_completed": 0,
     "start_time": 1778466025.641452
   },
-  "saved_at": 1778749856.5258687
+  "saved_at": 1778750497.3636408
 }
